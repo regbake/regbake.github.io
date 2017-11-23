@@ -31,6 +31,15 @@ body {
   border: white solid 1px;
 }
 
+.screenshot {
+  float: left;
+  height: 260px;
+  width: 400px;
+  box-sizing: border-box;
+  border: white solid 1px;
+  overflow: visible;
+}
+
 .image-holder {
   position: relative;
   /*float: left;*/
@@ -48,8 +57,10 @@ body {
 .item {
   margin: 0 auto;
   margin-top: 30px;
-  width: 60%;
-  overflow: hidden;
+  width: 70%;
+  height: 320px;
+  /*overflow: hidden;*/
+
 }
 
 p:hover span {
