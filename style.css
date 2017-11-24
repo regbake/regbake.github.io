@@ -24,17 +24,10 @@ body {
   color: cornflowerblue;
 }
 
-.image {
-  float: left;
-  height: 300px;
-  width: 300px;
-  border: white solid 1px;
-}
-
 .screenshot {
   float: left;
   height: 260px;
-  width: 400px;
+  width: 380px;
   box-sizing: border-box;
   border: white solid 1px;
   overflow: visible;
