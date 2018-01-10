@@ -4,9 +4,7 @@ body {
 }
 
 #selfie {
-  margin-top: -10%;
-  height: 250px;
-  width: 300px;
+  /*margin-top: -10%;*/
   border: white solid 1px;
   border-left: white solid 1px;
 }
