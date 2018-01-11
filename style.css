@@ -3,6 +3,13 @@ body {
   background-color: rgba(149, 170, 191, .89);
 }
 
+#axxess {
+  width: ;
+  height: 30%;
+  margin: 0 auto;
+  border: solid 2px red;
+}
+
 #selfie {
   /*margin-top: -10%;*/
   border: white solid 1px;
