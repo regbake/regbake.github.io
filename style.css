@@ -34,6 +34,10 @@ body {
   color: cornflowerblue;
 }
 
+.project-title {
+  margin-top: -4%;
+}
+
 .screenshot {
   float: left;
   height: 260px;
