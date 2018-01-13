@@ -23,6 +23,10 @@ body {
 #statement-container {
   width: 60%;
   margin: 0 auto;
+  margin-top: 2%;
+  background-color: rgba(159, 240, 231, .39);
+  /*padding-bottom: 2%;*/
+  padding: 0 2% 2% 2%;
 }
 
 #job-links a {
