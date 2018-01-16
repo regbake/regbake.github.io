@@ -38,17 +38,29 @@ body {
   color: cornflowerblue;
 }
 
+/*The toggle headers at the top: */
 .project-title {
   /*margin-top: -4%;*/
   display: inline-block;
 }
 
 .selected-title {
-  color: red;
+  background-color: rgba(32,119,207, .69);
+  padding: 7px;
+  margin-left: -2px;
 }
 
 .not-selected-title {
-  color: blue; 
+  color: rgba(32,119,207, .69);
+  border: 1px solid rgba(32,119,207, .69);
+  padding: 6px;
+  margin-left: -4px;
+  margin-right: -2px;
+}
+
+#toggle-ul {
+  width: 55%;
+  margin: 0 auto;
 }
 
 .screenshot {
