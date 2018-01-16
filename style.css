@@ -24,7 +24,7 @@ body {
   width: 60%;
   margin: 0 auto;
   margin-top: 2%;
-  background-color: rgba(159, 240, 231, .39);
+  background-color: rgba(159, 245, 231, .39);
   /*padding-bottom: 2%;*/
   padding: 0 2% 2% 2%;
 }
@@ -39,7 +39,16 @@ body {
 }
 
 .project-title {
-  margin-top: -4%;
+  /*margin-top: -4%;*/
+  display: inline-block;
+}
+
+.selected-title {
+  color: red;
+}
+
+.not-selected-title {
+  color: blue; 
 }
 
 .screenshot {

@@ -63,28 +63,23 @@
       <h2></h2>
     </div>
 
-    <style>
-      body {
-        height: 200px;
-        background: beige;
-      }
-      .dot {
-        height: 8px; width: 8px;
-        border-radius: 4px;
-        background: blue;
-        position: absolute;
-      }
-    </style>
-
+    <canvas width="600" height="500"></canvas>
     <script>
-      addEventListener("click", function(event){
-        var dot = document.createElement("div")
-        dot.className = "dot"
-        dot.style.left = (event.pageX - 4) + "px"
-        dot.style.top = (event.pageY - 4) + "px"
-        document.body.appendChild(dot)
-      })
+      var cx = document.querySelector("canvas").getContext("2d");
+      function branch(length, angle, scale){
+        cx.fillRect(0, 0, 1, length);
 
+        if (length < 8) return;
+        cx.save();
+        cx.translate(0, length);
+        cx.rotate(-angle);
+        branch(length * scale, angle, scale);
+        cx.rotate(2 * angle);
+        branch(length * scale, angle, scale);
+        cx.restore();
+      }
+      cx.translate(300, 0);
+      branch(60, 0.5, 0.8);
     </script>
   </div>
   <div class="hero-foot">
