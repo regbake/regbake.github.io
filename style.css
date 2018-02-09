@@ -3,6 +3,13 @@ body {
   background-color: rgba(149, 170, 191, .89);
 }
 
+#intro {
+  background-color: rgba(159, 255, 211, .39);
+  padding-bottom: -1%;
+  padding-top: -4px;
+  width: 80%;
+}
+
 #axxess {
   width: ;
   height: 30%;
