@@ -3,6 +3,12 @@ body {
   background-color: rgba(149, 170, 191, .89);
 }
 
+#what-is {
+  position: relative;
+  margin-top: 5%;
+  width: 100%;
+}
+
 #intro {
   background-color: rgba(159, 255, 211, .39);
   padding-bottom: -1%;
