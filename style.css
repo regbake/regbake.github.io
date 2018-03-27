@@ -9,6 +9,14 @@ body {
   width: 100%;
 }
 
+#rad-title {
+  font-size: 3em;
+}
+
+#rad-photo {
+  border: 1px solid white;
+}
+
 #intro {
   background-color: rgba(159, 255, 211, .39);
   padding-bottom: -1%;
