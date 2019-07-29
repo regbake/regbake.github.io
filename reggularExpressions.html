@@ -13,7 +13,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Welcome to lifeonthereg</title>
+  <title>Welcome to the RadCast</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
   <!-- Bulma Version 0.6.0 -->
@@ -31,8 +31,12 @@
     <nav class="navbar">
       <div class="container">
         <div class="navbar-brand">
-          <a class="navbar-item" href="radcast.html">
-            Looking for new music?
+          <a class="navbar-item" href="index.html">
+            <!-- <img src="../images/bulma.png" alt="Logo"> -->
+            <script>
+
+            </script>
+            Master of my domain.
           </a>
           <span id="nav-toggle" class="navbar-burger burger" data-target="navbarMenu">
             <span></span>
@@ -41,59 +45,51 @@
           </span>
         </div>
         <div id="navbarMenu" class="navbar-menu">
-          <div class="navbar-end">
-            <a class="navbar-item is-active" href="index.html">
-              Home
+          <!-- <div class="navbar-end">
+            <a class="navbar-item is-active" href="#">
+              ##
             </a>
-            <a class="navbar-item" href="portfolio.html">
-              Portfolio
+            <a class="navbar-item" href="#">
+              ##
             </a>
-            <a class="navbar-item" target="_blank" href="https://resume.creddle.io/resume/hcekfysu45i">
-              Resume
+            <a class="navbar-item" href="#">
+              ##
             </a>
-            <a class="navbar-item" href="about.html">
-              About
+            <a class="navbar-item" href="#">
+              ##
             </a>
-            <a class="navbar-item" href="reggularExpressions.html">
-                ReggularExpressions
-            </a>
-          </div>
+          </div> -->
         </div>
       </div>
     </nav>
   </div>
+
+  <div>
+      <img id="drinkPour" class="rad-photo" src="https://i.imgur.com/AUOaqP7l.jpg"/>
+  </div>
+
     <div class="hero-body">
-      <div class="container has-text-centered">
-        <div class="columns is-vcentered">
-          <div class="column is-5">
-            <div id="slider">
-              <figure>
-                <img src="https://farm1.staticflickr.com/141/326714287_d219b27e9e_o.jpg" alt>
-                <img src="https://i.imgur.com/ajPe2Bl.jpg" alt>
-                <img src="https://i.imgur.com/dDKgXS2h.jpg" alt>
-                <img src="https://i.imgur.com/KEFUlu0h.jpg" alt>
-                <img src="https://i.imgur.com/42k7aAs.jpg" alt>
-              </figure>
+        <div class="container has-text-centered">
+            <!-- first -->
+            <div class="columns is-vcentered">
+                <div class="column is-5">
+
+                </div>
+                <div class="column is-6 is-offset-1">
+
+                </div>
             </div>
-          </div>
-          <div class="column is-6 is-offset-1">
-            <h1 class="title is-2">
-              Reggie Baker, full-stack developer
-            </h1>
-            <!-- <h2 class="subtitle is-4" id="intro"> -->
-            <h2 class="subtitle is-4">
-              <br> Seattle, WA <br>
-              Mostly coding but other things, too.
-            </h2>
-            <br>
-            <p class="has-text-centered">
-              <a class="button is-medium is-info is-outlined" href="about.html">
-                Contact Me
-              </a>
-            </p>
-          </div>
+
+            <!-- second -->
+            <div class="columns is-vcentered">
+                <div class="column is-5">
+
+                </div>
+                <div class="column is-6 is-offset-1">
+
+                </div>
+            </div>
         </div>
-      </div>
     </div>
 
     <div class="hero-foot">
@@ -106,6 +102,34 @@
       </div>
     </div>
   </section>
+
+  <script>
+    // Drink pour logic
+    var drinkPourImage = document.getElementById('drinkPour');
+    var imageStep = 0;
+    var fotos = [
+      "https://i.imgur.com/AUOaqP7l.jpg",
+      "https://i.imgur.com/0UKGY9bl.jpg",
+      "https://i.imgur.com/2T4M1gll.jpg",
+      "https://i.imgur.com/H4NeZC4l.jpg",
+      "https://i.imgur.com/GGrAArMl.jpg",
+      "https://i.imgur.com/471rRQJl.jpg",
+      "https://i.imgur.com/KMaovS5l.jpg",
+      "https://i.imgur.com/8inm3Tgl.jpg"
+    ];
+
+    // on device ready
+    // start looping over the photos every 1 second
+    setInterval(function() {
+      drinkPourImage.src = fotos[imageStep];
+
+      if (imageStep >= fotos.length - 1) {
+        imageStep = 0;
+      } else {
+        imageStep++;
+      }
+    }, 1050);
+  </script>
   <script async type="text/javascript" src="../js/bulma.js"></script>
   <script type="text/javascript" src="script.js"></script>
 </body>
