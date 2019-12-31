@@ -2,11 +2,11 @@
 <html>
 <head>
   <script>
-    var host = "lifeonthereg.com";
-    if ((host == window.location.host) && (window.location.protocol != "https:")) {
-      window.location.protocol = "https";
-    }        
+    // Don't force https when serving the website locally
+    if (!(window.location.host.startsWith("127.0.0.1")) && (window.location.protocol != "https:"))
+        window.location.protocol = "https";
   </script>
+  
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113774775-1"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -15,6 +15,7 @@
 
     gtag('config', 'UA-113774775-1');
   </script>
+  
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
