@@ -107,13 +107,9 @@ body {
   width: 100%;
 }
 
-.item {
+.portfolio-item {
+  width: 80%;
   margin: 0 auto;
-  margin-top: 30px;
-  width: 70%;
-  height: 320px;
-  /*overflow: hidden;*/
-
 }
 
 p:hover span {
@@ -206,13 +202,13 @@ div#slider figure {
 }
 
 #workout-slider img {
-    border: white solid 1px;    
+  border: white solid 1px;    
 }
 
 div#workout-slider {
-  overflow: hidden;
-  margin-left: -2.3%;
+  overflow: hidden;  
   max-width: 380px;
+  min-width: 300px;
 }
 
 div#workout-slider figure img {
