@@ -191,7 +191,7 @@ div#slider figure {
   50% {
     left: -200%;
   }
-  70% {
+  80% {
     left: -200%;
   }
   /* 75% {
@@ -227,5 +227,5 @@ div#workout-slider figure {
   left: 0;
   text-align: left;
   font-size: 0;
-  animation: 20s workout-slidy infinite;
+  animation: 12s workout-slidy infinite;
 }
