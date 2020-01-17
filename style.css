@@ -14,7 +14,7 @@ body {
 }
 
 #rad-photo {
-  border: 1px solid white;
+  border: 2px solid white;
 }
 
 #intro {
@@ -33,8 +33,8 @@ body {
 
 #selfie {
   /*margin-top: -10%;*/
-  border: white solid 1px;
-  border-left: white solid 1px;
+  border: white solid 2px;
+  border-left: white solid 2px;
 }
 
 #statement {
@@ -89,7 +89,7 @@ body {
   height: 260px;
   width: 380px;
   box-sizing: border-box;
-  border: white solid 1px;
+  border: white solid 2px;
   overflow: visible;
 }
 
@@ -146,7 +146,7 @@ p:hover span {
 }
 
 #slider img {
-    border: white solid 1px;
+    border: white solid 2px;
 }
 
 div#slider {
@@ -201,7 +201,7 @@ div#slider figure {
 }
 
 #workout-slider img {
-  border: white solid 1px;
+  border: white solid 2px;
 }
 
 div#workout-slider {
