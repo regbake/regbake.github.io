@@ -1,4 +1,53 @@
-//dealing with the burger menu
+document.getElementById('header').innerHTML += `
+  <div class="hero-head">
+      <nav class="navbar">
+        <div class="container">
+          <div class="navbar-brand">
+            <a class="navbar-item" href="index.html">
+              <!-- <img src="../images/bulma.png" alt="Logo"> -->
+              Master of my domain.
+            </a>
+            <span id="nav-toggle" class="navbar-burger burger" data-target="navbarMenu">
+              <span></span>
+              <span></span>
+              <span></span>
+            </span>
+          </div>
+          <div id="navbarMenu" class="navbar-menu">
+            <div class="navbar-end">
+              <a class="navbar-item" href="index.html">
+                Home
+              </a>
+              <a class="navbar-item" href="portfolio.html">
+                Portfolio
+              </a>
+              <a class="navbar-item" target="_blank" href="https://resume.creddle.io/resume/hcekfysu45i">
+                Resume
+              </a>
+              <a class="navbar-item" href="about.html">
+                About
+              </a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+`
+
+document.getElementById('footer').innerHTML += `
+  <div class="hero-foot">
+    <div class="container">
+      <div class="tabs is-centered">
+        <ul>
+          <li><a>2020</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+`
+
+// handle burger menu
+// @TODO: resolve this not working?
 document.getElementById("nav-toggle").addEventListener ("click", toggleNav);
 function toggleNav() {
         var nav = document.getElementById("navbarMenu");
@@ -9,45 +58,3 @@ function toggleNav() {
             nav.className = "nav-right nav-menu";
         }
 };
-
-//The part of the portfolio section where you toggle the sections...
-var toggleUl = document.getElementById("toggle-ul").getElementsByTagName("li");
-var pastProj = toggleUl[0].firstChild;
-var currProj = toggleUl[1].firstChild;
-
-pastProj.addEventListener("click", function(){
-  //change this to not selected
-  if (this.classList.contains("selected-title")) {
-    this.classList.remove("selected-title");
-    this.classList.add("not-selected-title");
-
-    //change the other to selected
-    currProj.classList.remove("not-selected-title");
-    currProj.classList.add("selected-title");
-  } else if (this.classList.contains("not-selected-title")){
-    this.classList.remove("not-selected-title");
-    this.classList.add("selected-title");
-
-    //change the other to selected
-    currProj.classList.remove("selected-title");
-    currProj.classList.add("not-selected-title");
-  }
-});
-currProj.addEventListener("click", function(){
-  //change this to not selected
-  if (this.classList.contains("selected-title")) {
-    this.classList.remove("selected-title");
-    this.classList.add("not-selected-title");
-
-    //change the other to selected
-    pastProj.classList.remove("not-selected-title");
-    pastProj.classList.add("selected-title");
-  } else if (this.classList.contains("not-selected-title")){
-    this.classList.remove("not-selected-title");
-    this.classList.add("selected-title");
-
-    //change the other to selected
-    pastProj.classList.remove("selected-title");
-    pastProj.classList.add("not-selected-title");
-  }
-});
