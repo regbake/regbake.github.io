@@ -5,7 +5,8 @@
   "main": "script.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "compile:scss": "node-sass ./scss/main.scss style.css"
+    "compile:scss": "node-sass ./scss/main.scss style.css -w",
+    "local": "ruby -run -e httpd . -p 4567"
   },
   "repository": {
     "type": "git",
