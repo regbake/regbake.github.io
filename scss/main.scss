@@ -1,5 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
 body {
   background-color: cornflowerblue;
+}
+
+header {
+  width: 100vw;
+  height: 5vh;
+  border: solid 1px pink;
 }
 
 .menu-contain {
@@ -15,6 +27,8 @@ body {
     align-items: center;
     width: 50%;
     height: 18%;
+    border: solid red 1px;
+    margin: 1% auto;
 
     &:hover > .menu-item--icon {
       visibility: visible;
