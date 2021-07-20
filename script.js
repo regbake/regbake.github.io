@@ -39,7 +39,7 @@ document.getElementById('footer').innerHTML += `
     <div class="container">
       <div class="tabs is-centered">
         <ul>
-          <li><a>2020</a></li>
+          <li><a>2021</a></li>
         </ul>
       </div>
     </div>
