@@ -3,8 +3,8 @@ class GlobalHeader extends HTMLElement {
     super();
 
     this.shadow = this.attachShadow({ mode: 'open' });
-    this.heading = "";
-    this.subheading = "";
+    this.heading = '';
+    this.subheading = '';
   }
 
   connectedCallback() {
@@ -16,10 +16,10 @@ class GlobalHeader extends HTMLElement {
 
   render() {
     this.shadow.innerHTML = `
-      <div>
+      <header part="global-header">
         <h1>${this.heading}</h1>
         <p>${this.subheading}</p>
-      </div>
+      </header>
     `;
   }
 }

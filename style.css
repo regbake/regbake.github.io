@@ -6,9 +6,13 @@
 body {
   background-color: cornflowerblue; }
 
-header {
+global-header::part(global-header) {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   width: 100vw;
-  height: 5vh;
+  height: 15vh;
   border: solid 1px pink; }
 
 .menu-contain {
