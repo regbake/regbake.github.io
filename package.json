@@ -1,0 +1,24 @@
+{
+  "name": "lifeonthereg",
+  "version": "1.0.0",
+  "description": "web presence and fartfolio",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile:scss": "node-sass ./scss/main.scss style.css -w",
+    "local": "ruby -run -e httpd . -p 4567"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/regbake/regbake.github.io.git"
+  },
+  "author": "rbaker",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/regbake/regbake.github.io/issues"
+  },
+  "homepage": "https://github.com/regbake/regbake.github.io#readme",
+  "devDependencies": {
+    "node-sass": "^6.0.0"
+  }
+}

@@ -1,0 +1,226 @@
+body {
+  text-align: center;
+  background-color: rgba(83, 183, 230, .82);
+}
+
+#what-is {
+  position: relative;
+  margin-top: 2%;
+  width: 100%;
+}
+
+#rad-title {
+  font-size: 3em;
+}
+
+#rad-photo {
+  border: 2px solid white;
+}
+
+#intro {
+  background-color: rgba(159, 255, 211, .39);
+  padding-bottom: -1%;
+  padding-top: -4px;
+  width: 80%;
+}
+
+#axxess {
+  width: ;
+  height: 30%;
+  margin: 0 auto;
+  border: solid 2px red;
+}
+
+#selfie {
+  /*margin-top: -10%;*/
+  border: white solid 2px;
+  border-left: white solid 2px;
+}
+
+#statement {
+  text-align: center;
+}
+
+#statement-container {
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 2%;
+  background-color: rgba(159, 245, 231, .39);
+  /*padding-bottom: 2%;*/
+  padding: 0 2% 2% 2%;
+}
+
+#job-links a {
+  text-decoration: none;
+  color: white;
+}
+
+#job-links a:hover {
+  color: cornflowerblue;
+}
+
+/*The toggle headers at the top: */
+.project-title {
+  /*margin-top: -4%;*/
+  display: inline-block;
+}
+
+.selected-title {
+  background-color: rgba(32,119,207, .69);
+  padding: 7px;
+  margin-left: -2px;
+}
+
+.not-selected-title {
+  color: rgba(32,119,207, .69);
+  border: 1px solid rgba(32,119,207, .69);
+  padding: 6px;
+  margin-left: -4px;
+  margin-right: -2px;
+}
+
+#toggle-ul {
+  width: 55%;
+  margin: 0 auto;
+}
+
+.screenshot {
+  float: left;
+  height: 260px;
+  width: 380px;
+  box-sizing: border-box;
+  border: white solid 2px;
+  overflow: visible;
+}
+
+.image-holder {
+  position: relative;
+}
+
+.header {
+  background-color: rgba(32,119,207, .69);
+  color: white;
+}
+
+.main {
+  width: 100%;
+}
+
+.portfolio-item {
+  width: 80%;
+  margin: 0 auto;
+}
+
+p:hover span {
+  color: white;
+}
+
+@keyframes slidy {
+  0% {
+    left: 0%;
+  }
+  20% {
+    left: 0%;
+  }
+  25% {
+    left: -100%;
+  }
+  45% {
+    left: -100%;
+  }
+  50% {
+    left: -200%;
+  }
+  70% {
+    left: -200%;
+  }
+  75% {
+    left: -300%;
+  }
+  95% {
+    left: -300%;
+  }
+  /*100% {
+    left: -400%;
+  }*/
+}
+
+#slider img {
+    border: white solid 2px;
+}
+
+div#slider {
+  overflow: hidden;
+}
+
+div#slider figure img {
+  width: 20%;
+  float: left;
+}
+
+div#slider figure {
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  text-align: left;
+  font-size: 0;
+  animation: 20s slidy infinite;
+}
+
+/* workout slide */
+
+@keyframes workout-slidy {
+  0% {
+    left: 0%;
+  }
+  20% {
+    left: 0%;
+  }
+  25% {
+    left: -100%;
+  }
+  45% {
+    left: -100%;
+  }
+  50% {
+    left: -200%;
+  }
+  80% {
+    left: -200%;
+  }
+  /* 75% {
+    left: -300%;
+  }
+  95% {
+    left: -300%;
+  } */
+  /*100% {
+    left: -400%;
+  }*/
+}
+
+#workout-slider img {
+  border: white solid 2px;
+}
+
+div#workout-slider {
+  overflow: hidden;
+  max-width: 380px;
+  min-width: 300px;
+}
+
+div#workout-slider figure img {
+  width: 20%;
+  float: left;
+}
+
+div#workout-slider figure {
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  text-align: left;
+  font-size: 0;
+  animation: 12s workout-slidy infinite;
+}
