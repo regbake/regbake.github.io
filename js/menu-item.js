@@ -18,7 +18,6 @@ class MenuItem extends HTMLElement {
     this.shadow.innerHTML = `
       <div part="menu-item">
         <div part="menu-item--icon">
-          
         </div>
         
         <a href="${ this.href }">
