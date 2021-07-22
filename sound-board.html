@@ -9,7 +9,6 @@
     <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
     <link rel="stylesheet" type="text/css" href="style.css">
     <script type="text/javascript" src="js/global-header.js"></script>
-    <script type="text/javascript" src="js/menu-item.js"></script>
   </head>
   <body>
     <global-header
@@ -17,42 +16,17 @@
       subheading=""
     >
     </global-header>
-  
-    <div class="menu-contain">
-      <menu-item
-        name="archive"
-        href="/old-news"
-      >
-      </menu-item>
 
-      <menu-item
-        name="about"
-        href="/about.html"
-      >
-      </menu-item>
+    <div class="sound-board-contain">
+      <script>
+        function play() {
+          const aud = document.getElementById("aud");
+          aud.play();
+        }
+      </script>
 
-      <menu-item
-        name="sound board"
-        href="/sound-board.html"
-      >
-      </menu-item>
-
-      <!-- <menu-item
-        name="catalina 22"
-        href="boat-sale.html"
-      > -->
-
-      
-
-      </menu-item>
-
-
-
-      <!-- <menu-item
-        name="notes"
-        href="/notes.html"
-      >
-      </menu-item> -->
+      <input type="button" value="PLAY" onclick="play()">
+      <audio id="aud" src="/audio/boing-sound-effect.mp3"></audio>
     </div>
     <script type="text/javascript" src="js/script.js"></script>
   </body>
