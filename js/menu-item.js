@@ -4,10 +4,12 @@ class MenuItem extends HTMLElement {
 
     this.shadow = this.attachShadow({ mode: 'open' });
     this.name = '';
+    this.href = '';
   }
 
   connectedCallback() {
     this.name = this.getAttribute('name');
+    this.href = this.getAttribute('href');
 
     this.render();
   }
@@ -19,10 +21,11 @@ class MenuItem extends HTMLElement {
           
         </div>
         
+        <a href="${ this.href }">
         <button part="menu-item--button">${this.name}</button>
       </div>
     `;
   }
 }
 
-customElements.define('global-header', GlobalHeader);
+customElements.define('menu-item', MenuItem);

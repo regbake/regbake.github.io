@@ -9,6 +9,7 @@
     <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
     <link rel="stylesheet" type="text/css" href="style.css">
     <script type="text/javascript" src="js/global-header.js"></script>
+    <script type="text/javascript" src="js/menu-item.js"></script>
   </head>
   <body>
     <global-header
@@ -25,23 +26,17 @@
         
         <h2>play</h2>
       </div> -->
-      <div class="menu-item">
-        <div class="menu-item--icon">
-          
-        </div>
-        
-        <a href="/old-news">
-          <button>archive</button>
-        </a>
-      </div>
-      <div class="menu-item">
-        <div class="menu-item--icon">
-          
-        </div>
-        <a href="/about.html">
-          <button>about</button>
-        </a>
-      </div>
+      <menu-item
+        name="archive"
+        href="/old-news"
+      >
+      </menu-item>
+
+      <menu-item
+        name="about"
+        href="/about.html"
+      >
+      </menu-item>
       <!-- <div class="menu-item">
         <div class="menu-item--icon">
           
