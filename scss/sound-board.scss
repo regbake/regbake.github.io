@@ -1,0 +1,14 @@
+.sound-board-contain {
+  width: 100%;
+
+  div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .audio--item {
+      margin: 10px 0;
+    }
+  }
+}

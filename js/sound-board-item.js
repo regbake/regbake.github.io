@@ -12,17 +12,19 @@ class SoundBoardItem extends HTMLElement {
     this.render();
   }
 
+  play(name) {
+    const aud = document.getElementById(name);
+    console.log(aud)
+    aud.play();
+
+    console.log('true' + name);
+    return 'true' + name;
+  }
+
   render() {
     this.shadow.innerHTML = `
-      <script>
-        function play() {
-          const aud = document.getElementById("${this.name}");
-          console.log(aud)
-          aud.play();
-        }
-      </script>
       <div>
-        <input type="button" value="${this.name}" onclick="play()">
+        <input type="button" value="${this.name}" onclick="this.parentElement.play('${this.name}')">
         <audio id="${this.name}" src="/audio/${this.name}.mp3"></audio>
       </div>
     `;

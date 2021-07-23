@@ -2,6 +2,16 @@
   display: flex;
   justify-content: center; }
 
+.sound-board-contain {
+  width: 100%; }
+  .sound-board-contain div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .sound-board-contain div .audio--item {
+      margin: 10px 0; }
+
 * {
   margin: 0;
   padding: 0;

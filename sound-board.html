@@ -9,7 +9,7 @@
     <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
     <link rel="stylesheet" type="text/css" href="style.css">
     <script type="text/javascript" src="js/global-header.js"></script>
-    <script type="text/javascript" src="js/sound-board-item.js"></script>
+    <!-- <script type="text/javascript" src="js/sound-board-item.js"></script> -->
   </head>
   <body>
     <global-header
@@ -19,9 +19,19 @@
     </global-header>
 
     <div class="sound-board-contain">
-      <sound-board-item name="boing">
-
-      </sound-board-item>
+      <div>
+        <!-- <input type="button" value="${this.name}" onclick="this.parentElement.play('${this.name}')"> -->
+        <label>boing</label>
+        <audio class="audio--item" src="/audio/boing.mp3" controls="controls">boing</audio>
+        <audio class="audio--item" src="/audio/showmeyour/dirtytrwu.mp3" controls="controls">dirtytrwu</audio>
+        <audio class="audio--item" src="/audio/showmeyour/eighteen.mp3" controls="controls">eighteen</audio>
+        <audio class="audio--item" src="/audio/showmeyour/nflditty.mp3" controls="controls">nflditty</audio>
+        <audio class="audio--item" src="/audio/showmeyour/one.mp3" controls="controls">one</audio>
+        <audio class="audio--item" src="/audio/showmeyour/thirteen.mp3" controls="controls">thirteen</audio>
+        <audio class="audio--item" src="/audio/showmeyour/thirty.mp3" controls="controls">thirty</audio>
+        <audio class="audio--item" src="/audio/showmeyour/twentyfour_birthday.mp3" controls="controls">twentyfour_birthday.mp3</audio>
+        <audio class="audio--item" src="/audio/showmeyour/twentysix.mp3" controls="controls">twentysix</audio>
+      </div>
     </div>
     <script type="text/javascript" src="js/script.js"></script>
   </body>
