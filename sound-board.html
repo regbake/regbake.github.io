@@ -9,6 +9,7 @@
     <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
     <link rel="stylesheet" type="text/css" href="style.css">
     <script type="text/javascript" src="js/global-header.js"></script>
+    <script type="text/javascript" src="js/sound-board-item.js"></script>
   </head>
   <body>
     <global-header
@@ -18,15 +19,9 @@
     </global-header>
 
     <div class="sound-board-contain">
-      <script>
-        function play() {
-          const aud = document.getElementById("aud");
-          aud.play();
-        }
-      </script>
+      <sound-board-item name="boing">
 
-      <input type="button" value="PLAY" onclick="play()">
-      <audio id="aud" src="/audio/boing-sound-effect.mp3"></audio>
+      </sound-board-item>
     </div>
     <script type="text/javascript" src="js/script.js"></script>
   </body>
