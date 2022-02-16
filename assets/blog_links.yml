@@ -1,0 +1,43 @@
+---
+  texts:
+    notes:
+      - name:
+          title:
+          embed_code:
+          url:
+
+      - security_notes_6:
+          title: Social brain
+          embed_code: <script src="https://gist.github.com/regbake/060aa5eefcb9fcd9b37a26f45c57c4a5.js"></script>
+          url: https://gist.github.com/regbake/060aa5eefcb9fcd9b37a26f45c57c4a5
+      - security_notes_5:
+          title: Pirate economics 
+          embed_code: <script src="https://gist.github.com/regbake/37a72b0a35d33c4e79e3febfc61e81ca.js"></script>
+          url: https://gist.github.com/regbake/37a72b0a35d33c4e79e3febfc61e81ca
+
+    logs:
+      - name:
+          title:
+          embed_code:
+          url:
+
+      - 01262022.txt:
+          title: First gist
+          embed_code: <script src="https://gist.github.com/regbake/7476e00346a1e8c4a5c571fe8d958bb9.js"></script>
+          url: https://gist.github.com/regbake/7476e00346a1e8c4a5c571fe8d958bb9
+
+      - 02012022.txt:
+          title: foglights scheme
+          embed_code: <script src="https://gist.github.com/regbake/06011670be37b7fae7592fe5720273ec.js"></script>
+          url: https://gist.github.com/regbake/06011670be37b7fae7592fe5720273ec
+
+
+
+
+
+
+
+
+
+
+....

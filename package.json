@@ -4,7 +4,7 @@
   "description": "web presence and fartfolio",
   "main": "script.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "compile:scss": "node-sass ./scss/main.scss style.css -w",
     "local": "ruby -run -e httpd . -p 4567"
   },
@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/regbake/regbake.github.io#readme",
   "devDependencies": {
+    "jest": "^27.5.1",
     "node-sass": "^6.0.0"
   }
 }
