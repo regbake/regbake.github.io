@@ -5,7 +5,7 @@
   "main": "script.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "compile:scss": "node-sass ./scss/main.scss style.css -w",
+    "compile:scss": "node-sass ./scss/main.scss style.css",
     "local": "ruby -run -e httpd . -p 4567"
   },
   "repository": {
@@ -19,6 +19,6 @@
   },
   "homepage": "https://github.com/regbake/regbake.github.io#readme",
   "devDependencies": {
-    "node-sass": "^6.0.0"
+    "node-sass": "^7.0.1"
   }
 }
