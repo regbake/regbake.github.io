@@ -15,9 +15,9 @@ global-header::part(global-header) {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  margin: 10px 0;
   
   width: 100vw;
-  height: 15vh;
 }
 
 global-header::part(header) {
@@ -43,10 +43,11 @@ global-header::part(anchor):hover {
 
 .menu-contain {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: center;
   align-items: center;
-
   width: 100%;
+  margin-bottom: 10px;
 
   & > .menu-item {
     display: flex;
