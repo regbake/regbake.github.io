@@ -18,6 +18,23 @@ global-header::part(global-header) {
   width: 100vw;
   height: 15vh; }
 
+global-header::part(header) {
+  margin: 10px; }
+
+global-header::part(sub-header) {
+  color: white;
+  margin: 10px; }
+
+global-header::part(anchor) {
+  text-decoration: none;
+  background-color: #55d3ac;
+  padding: 10px;
+  border-radius: 5px;
+  color: white; }
+
+global-header::part(anchor):hover {
+  color: cornflowerblue; }
+
 .menu-contain {
   display: flex;
   flex-direction: column;
