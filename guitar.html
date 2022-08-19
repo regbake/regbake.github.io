@@ -26,7 +26,15 @@
 
     <div class="main-container">
       <div class="music-elements">
-        <button onclick="playAll()">play all</button>
+        <button onclick="playAll()">play all in order</button>
+	<button onclick="playAllAtOnce()">play all at once</button>
+	      <div>
+		 <span>thirteen</span>
+		 <audio controls>
+		  <source src="/showmeyour/thirteen.mp3" type="audio/mpeg">
+		  Your browser does not support the audio tag.
+		</audio> 
+	      </div>
 	      <div>
 		 <span>nflditty</span>
 		 <audio controls>
@@ -38,13 +46,6 @@
 		 <span>one</span>
 		 <audio controls>
 		  <source src="/showmeyour/one.mp3" type="audio/mpeg">
-		  Your browser does not support the audio tag.
-		</audio> 
-	      </div>
-	      <div>
-		 <span>thirteen</span>
-		 <audio controls>
-		  <source src="/showmeyour/thirteen.mp3" type="audio/mpeg">
 		  Your browser does not support the audio tag.
 		</audio> 
 	      </div>
@@ -63,16 +64,16 @@
 		</audio> 
 	      </div>
 	      <div>
-		 <span>twentysix</span>
+		 <span>twentyfour_birthday</span>
 		 <audio controls>
-		  <source src="/showmeyour/twentysix.mp3" type="audio/mpeg">
+		  <source src="/showmeyour/twentyfour_birthday.mp3" type="audio/mpeg">
 		  Your browser does not support the audio tag.
 		</audio> 
 	      </div>
 	      <div>
-		 <span>twentyfour_birthday</span>
+		 <span>twentysix</span>
 		 <audio controls>
-		  <source src="/showmeyour/twentyfour_birthday.mp3" type="audio/mpeg">
+		  <source src="/showmeyour/twentysix.mp3" type="audio/mpeg">
 		  Your browser does not support the audio tag.
 		</audio> 
 	      </div>
@@ -83,6 +84,12 @@
     <script type="text/javascript" src="js/script.js"></script>
     <script>
         const audioElements = document.getElementsByTagName('audio');
+	const playAllAtOnce = () => {
+	
+	  for (const audioElement of audioElements){
+	    audioElement.play();
+	  }
+	};
         const playAll = () => {
           audioElements[0].play();
           for (let item = 0; item < audioElements.length; item++){
