@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Welcome to lifeonthereg</title>
+    <!-- Babel -->
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="js/global-header.js"></script>
+    <script type="text/javascript" src="js/ditty-item.js"></script>
+    <style>
+      .main-container { display: flex; justify-content: center;  }
+      .main-container img { width: 30%; }
+      .main-container div div { display: flex; flex-direction: column }
+    </style>
+  </head>
+  <body>
+    <global-header
+      heading="rreegg"
+      subheading="guitar ditties"
+      href="/index.html"
+    >
+    </global-header>
+
+    <div class="main-container">
+      <div class="music-elements">
+        <button onclick="playAll()">play all</button>
+	      <div>
+		 <span>nflditty</span>
+		 <audio controls>
+		  <source src="/showmeyour/nflditty.mp3" type="audio/mpeg">
+		  Your browser does not support the audio tag.
+		</audio> 
+	      </div>
+	      <div>
+		 <span>one</span>
+		 <audio controls>
+		  <source src="/showmeyour/one.mp3" type="audio/mpeg">
+		  Your browser does not support the audio tag.
+		</audio> 
+	      </div>
+	      <div>
+		 <span>thirteen</span>
+		 <audio controls>
+		  <source src="/showmeyour/thirteen.mp3" type="audio/mpeg">
+		  Your browser does not support the audio tag.
+		</audio> 
+	      </div>
+	      <div>
+		 <span>thirty</span>
+		 <audio controls>
+		  <source src="/showmeyour/thirty.mp3" type="audio/mpeg">
+		  Your browser does not support the audio tag.
+		</audio> 
+	      </div>
+	      <div>
+		 <span>eighteen</span>
+		 <audio controls>
+		  <source src="/showmeyour/eighteen.mp3" type="audio/mpeg">
+		  Your browser does not support the audio tag.
+		</audio> 
+	      </div>
+	      <div>
+		 <span>twentysix</span>
+		 <audio controls>
+		  <source src="/showmeyour/twentysix.mp3" type="audio/mpeg">
+		  Your browser does not support the audio tag.
+		</audio> 
+	      </div>
+	      <div>
+		 <span>twentyfour_birthday</span>
+		 <audio controls>
+		  <source src="/showmeyour/twentyfour_birthday.mp3" type="audio/mpeg">
+		  Your browser does not support the audio tag.
+		</audio> 
+	      </div>
+      </div>
+      <img src="/photos/showmeyour_photo.jpg"/>
+    </div>
+
+    <script type="text/javascript" src="js/script.js"></script>
+    <script>
+        const audioElements = document.getElementsByTagName('audio');
+        const playAll = () => {
+          audioElements[0].play();
+          for (let item = 0; item < audioElements.length; item++){
+	      if (audioElements.length - item > 1) {
+                audioElements[item].addEventListener('ended', () => {
+		  audioElements[item + 1].play();
+		  console.log(`started play on ${item+1}`);
+	        })
+	      }
+	  }
+        }
+    </script>
+  </body>
+</html>
