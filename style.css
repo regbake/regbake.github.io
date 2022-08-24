@@ -2,6 +2,32 @@
   display: flex;
   justify-content: center; }
 
+.main-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  flex-direction: column; }
+  @media (min-width: 800px) {
+    .main-container {
+      flex-direction: row; } }
+
+.image-container img {
+  width: 300px;
+  height: 386px;
+  object-fit: cover; }
+
+.main-container > div > div {
+  display: flex;
+  flex-direction: column;
+  width: 70%; }
+
+.music-elements audio {
+  width: 200px; }
+  @media (min-width: 600px) {
+    .music-elements audio {
+      width: 250px; } }
+
 * {
   margin: 0;
   padding: 0;
