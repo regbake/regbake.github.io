@@ -2,14 +2,15 @@
   display: flex;
   justify-content: center; }
 
-.main-container {
+.main-audio-container {
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 12%;
   margin: 0 auto;
   flex-direction: column; }
   @media (min-width: 800px) {
-    .main-container {
+    .main-audio-container {
       flex-direction: row; } }
 
 .image-container img {
@@ -17,15 +18,15 @@
   height: 386px;
   object-fit: cover; }
 
-.main-container > div > div {
+.main-audio-container > div > div {
   display: flex;
   flex-direction: column;
   width: 70%; }
 
-.music-elements audio {
+.audio-elements audio {
   width: 200px; }
   @media (min-width: 600px) {
-    .music-elements audio {
+    .audio-elements audio {
       width: 250px; } }
 
 * {
@@ -84,5 +85,8 @@ global-header::part(anchor):hover {
     background-color: red; }
 
 .gist-container {
-  width: 45%;
+  width: 80%;
   margin: 0 auto; }
+  @media (min-width: 1000px) {
+    .gist-container {
+      width: 60%; } }

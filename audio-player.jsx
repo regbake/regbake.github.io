@@ -30,8 +30,8 @@ const AudioPlayer = () => {
 
 
   return (
-    <div class="main-container">
-      <div class="music-elements">
+    <div class="main-audio-container">
+      <div class="audio-elements">
         <div>
           <button onClick={playAll}>play all in order</button>
           <button onClick={playAllAtOnce}>play all at once</button>
