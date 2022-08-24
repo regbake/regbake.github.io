@@ -1,7 +1,8 @@
-.main-container {
+.main-audio-container {
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 12%;
   margin: 0 auto;
   flex-direction: column;
 
@@ -16,13 +17,13 @@
   object-fit: cover;
 }
 
-.main-container > div > div {
+.main-audio-container > div > div {
   display: flex;
   flex-direction: column;
   width: 70%;
 }
 
-.music-elements audio {
+.audio-elements audio {
   width: 200px;
 
   @media (min-width: 600px) {
