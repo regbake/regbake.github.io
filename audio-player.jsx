@@ -38,7 +38,7 @@ const AudioPlayer = () => {
           {
             dittyList.map(item => (
               <div key={item}>
-                <span>{item}</span>
+                <h3>{item}</h3>
                 <audio
                   src={`/showmeyour/${item}.mp3`}
                   controls
