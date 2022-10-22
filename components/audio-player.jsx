@@ -18,11 +18,14 @@ const AudioPlayer = () => {
   };
 
   const playAll = () => {
+    // start by playing first item
     audioElements[0].play();
-    for (let item = 0; item < audioElements.length; item++){
+
+    for (let item = 0; item < audioElements.length; item++) {
+      // don't continue playing after the last element
       if (audioElements.length - item > 1) {
         audioElements[item].addEventListener('ended', () => {
-        audioElements[item + 1].play();
+          audioElements[item + 1].play();
         })
       }
     }
@@ -37,7 +40,7 @@ const AudioPlayer = () => {
           <button onClick={playAllAtOnce}>play all at once</button>
           {
             dittyList.map(item => (
-              <div key={item}>
+              <div key={item} class="audio-element-container">
                 <h3>{item}</h3>
                 <audio
                   src={`/showmeyour/${item}.mp3`}
@@ -49,7 +52,8 @@ const AudioPlayer = () => {
         </div>
       </div>
       <div class="image-container">
-          <img src="/photos/showmeyour_photo.jpg"/>
+          {/* <img src="/photos/showmeyour_photo.jpg"/> */}
+          <img src="https://i.imgur.com/ZuVozuCl.jpg" />
         </div>
     </div>
   );

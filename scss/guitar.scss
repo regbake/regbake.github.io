@@ -1,9 +1,11 @@
 .main-audio-container {
+  background-color: navajowhite;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 12%;
   margin: 0 auto;
+  padding: 20px 0;
   flex-direction: column;
 
   @media (min-width: 800px) {
@@ -15,12 +17,26 @@
   width: 300px;
   height: 386px;
   object-fit: cover;
+  border: solid white 1px;
 }
 
 .main-audio-container > div > div {
   display: flex;
   flex-direction: column;
   width: 70%;
+}
+
+.audio-element-container {
+  background-color: #55d3ac;
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0;
+  width: 300px;
+  align-items: center;
+  gap: 2px;
+  justify-content: space-around;
+  height: 100px;
+  border-radius: 5px;
 }
 
 .audio-elements audio {
