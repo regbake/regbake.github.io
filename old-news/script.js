@@ -3,7 +3,7 @@ document.getElementById('header').innerHTML += `
       <nav class="navbar">
         <div class="container">
           <div class="navbar-brand">
-            <a class="navbar-item" href="index.html">
+            <a class="navbar-item" href="/index.html">
               <!-- <img src="../images/bulma.png" alt="Logo"> -->
               Master of my domain.
             </a>
@@ -15,7 +15,7 @@ document.getElementById('header').innerHTML += `
           </div>
           <div id="navbarMenu" class="navbar-menu">
             <div class="navbar-end">
-              <a class="navbar-item" href="index.html">
+              <a class="navbar-item" href="/index.html">
                 Home
               </a>
               <a class="navbar-item" href="portfolio.html">
