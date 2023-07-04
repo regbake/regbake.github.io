@@ -15,14 +15,14 @@ const AudioPlayer = (props) => {
 
   const sixList = [
     '43',
-    '44',
-    'colt45',
     '46',
+    'colt45',
     '047',
-    '048_1',
+    '44',
     '49',
     '50',
     'area51',
+    '048_1',
   ];
 
   const audioElements = document.getElementsByTagName('audio');
@@ -57,6 +57,18 @@ const AudioPlayer = (props) => {
     }
 
     return showDittyList();
+  }
+
+  const handleShowImage = () => {
+    const srcImage = (album === 'showMeYour'
+      ? "https://i.imgur.com/ZuVozuCl.jpg"
+      : "https://i.imgur.com/X4bFJxLl.jpg");
+    return (
+      <div>
+        <h2>{album}</h2>
+        <img src={srcImage} />
+      </div>
+    )
   }
 
   const showSix = () => {
@@ -94,16 +106,16 @@ const AudioPlayer = (props) => {
         <div>
           <button onClick={playAll}>play all</button>
           {/* <button onClick={playAllAtOnce}>play all at once</button> */}
-          <button onClick={toggleAlbum}>toggle album</button>
+          <button onClick={toggleAlbum}>toggle collection</button>
           {
             handleShowAlbum()
           }
         </div>
       </div>
       <div class="image-container">
-        {/* <img src="/photos/showmeyour_photo.jpg"/> */}
-        <h2>{album}</h2>
-        <img src="https://i.imgur.com/ZuVozuCl.jpg" />
+        {
+          handleShowImage()
+        }
       </div>
     </div>
   );
