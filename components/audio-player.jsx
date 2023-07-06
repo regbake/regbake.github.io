@@ -22,7 +22,7 @@ const AudioPlayer = (props) => {
     '49',
     '50',
     'area51',
-    '048_1',
+    'giddy_ditty_outro',
   ];
 
   const audioElements = document.getElementsByTagName('audio');
