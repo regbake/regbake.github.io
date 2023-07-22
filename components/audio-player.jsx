@@ -3,27 +3,33 @@ const { useState } = React;
 const AudioPlayer = (props) => {
   const [album, setAlbum] = useState('six');
 
-  const dittyList = [
-    'thirteen',
-    'nflditty',
-    'one',
-    'thirty',
-    'eighteen',
-    'twentyfour_birthday',
-    'twentysix',
-  ];
-
-  const sixList = [
-    '43',
-    '46',
-    'colt45',
-    '047',
-    '44',
-    '49',
-    '50',
-    'area51',
-    '048_1',
-  ];
+  const collections = {
+    dittyList: [
+      'thirteen',
+      'nflditty',
+      'one',
+      'thirty',
+      'eighteen',
+      'twentyfour_birthday',
+      'twentysix',
+    ],
+    sixList: [
+      '43',
+      '46',
+      'colt45',
+      '047',
+      '44',
+      '49',
+      '50',
+      'area51',
+      '048_1',
+    ],
+    epDittyList: [
+      '102degreeditty',
+      'area51_ep',
+      'ditty101',
+    ],
+  };
 
   const audioElements = document.getElementsByTagName('audio');
 
@@ -48,12 +54,17 @@ const AudioPlayer = (props) => {
   }
 
   const toggleAlbum = () => {
-    return album === 'six' ? setAlbum('showMeYour') : setAlbum('six');
+    if (album === 'ep') {return setAlbum('ep')}
+    return album === 'six' ? setAlbum('showMeYour') : setAlbum('ep');
   }
 
   const handleShowAlbum = () => {
     if (album === 'six') {
       return showSix();
+    }
+
+    if (album === 'ep') {
+      return showEp();
     }
 
     return showDittyList();
@@ -71,9 +82,23 @@ const AudioPlayer = (props) => {
     )
   }
 
+  const showEp = () => {
+    return (
+      collections.epDittyList.map(item => (
+        <div key={item} class="audio-element-container">
+          <h3>{item}</h3>
+          <audio
+            src={`/ep_ditty/${item}.mp3`}
+            controls
+          />
+        </div>
+      ))
+    )
+  }
+
   const showSix = () => {
     return (
-      sixList.map(item => (
+      collections.sixList.map(item => (
         <div key={item} class="audio-element-container">
           <h3>{item}</h3>
           <audio
@@ -87,7 +112,7 @@ const AudioPlayer = (props) => {
 
   const showDittyList = () => {
     return (
-      dittyList.map(item => (
+      collections.dittyList.map(item => (
         <div key={item} class="audio-element-container">
           <h3>{item}</h3>
           <audio
@@ -107,6 +132,9 @@ const AudioPlayer = (props) => {
           <button onClick={playAll}>play all</button>
           {/* <button onClick={playAllAtOnce}>play all at once</button> */}
           <button onClick={toggleAlbum}>toggle collection</button>
+          <select>
+            
+          </select>
           {
             handleShowAlbum()
           }
