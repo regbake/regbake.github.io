@@ -25,6 +25,16 @@ const AudioPlayer = (props) => {
     'giddy_ditty_outro',
   ];
 
+  const didheDittyList = [
+    '002_1',
+    '005_1',
+    '006_1',
+    '007_1',
+    '009_1',
+    '051_1',
+    'ditty101',
+  ];
+
   const audioElements = document.getElementsByTagName('audio');
 
   const playAllAtOnce = () => {
