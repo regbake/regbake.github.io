@@ -1,11 +1,24 @@
 // http://localhost:9292/gists
-const getAllGists = () => fetch('http://164.92.76.225:9292/gists')
+const getAllGists = () => fetch('https://www.regbake.dev/gists')
   .then(function(response) {
     return response.json();
   })
   .catch((error) => {
     console.log('Oh no there was an error fetching the gists!')
-    return ["<h1>You're looking great today.</h1>"];
+    return [
+      "<h1>You're looking great today.</h1>",
+      `
+        <p>The quick brown fox jumped</p>
+        <ul>
+          <li>foo</li>
+          <li>foo</li>
+          <li>bar</li>
+          <li>moo</li>
+        </ul>
+      `,
+      "<h3>over the lazy</h3>",
+      "<p>dog.</p>"
+    ];
   })
   .then((arr) => {
     arr.map(markup => {
