@@ -1,4 +1,5 @@
 require 'rubygems'
+require 'pry'
 require 'sinatra'
 require 'sinatra/base'
 require 'sinatra/reloader'
@@ -23,8 +24,8 @@ class App < Sinatra::Base
 
   get '/gists' do
     gists = Gists.new
-    # gists.most_recent_10_gists
-    gists.build_response
+    response = gists.build_response
+    response
   end
 
   get '/test-gists' do

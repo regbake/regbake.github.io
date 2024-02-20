@@ -38,7 +38,8 @@ class Gists
   end
 
   def most_recent_10_gists
-    html_urls = JSON.parse(get_all_gists).map do |item|
+    # html_urls = JSON.parse(get_all_gists).map do |item|
+    html_urls = JSON.parse(fake_get_gists).map do |item|
       files = item["files"]
       gist_name = files.keys[0]
       item["files"][gist_name]["raw_url"]
@@ -61,7 +62,8 @@ class Gists
   end
 
   def build_response
-    md_link_to_html most_recent_10_gists
+    response = md_link_to_html most_recent_10_gists
+    response.to_json
   end
 end
 

@@ -105,6 +105,9 @@ global-header::part(anchor):hover {
   @media (min-width: 1000px) {
     .gist-container {
       width: 60%; } }
+  .gist-container .homepage-gists__item {
+    background-color: navajowhite;
+    color: white; }
 
 #cookie-policy {
   position: fixed;
