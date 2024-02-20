@@ -107,7 +107,9 @@ global-header::part(anchor):hover {
       width: 60%; } }
   .gist-container .homepage-gists__item {
     background-color: navajowhite;
-    color: white; }
+    color: white;
+    margin: 1rem 0;
+    padding: 1rem 2rem; }
 
 #cookie-policy {
   position: fixed;
