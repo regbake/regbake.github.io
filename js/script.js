@@ -1,5 +1,5 @@
 // http://localhost:9292/gists
-const getAllGists = () => fetch('https://164.92.76.225:9292/gists')
+const getAllGists = () => fetch('164.92.76.225:9292/gists')
   .then(function(response) {
     return response.json();
   })
