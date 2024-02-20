@@ -86,6 +86,11 @@ global-header::part(anchor):hover {
   @media (min-width: 1000px) {
     width: 60%;
   }
+
+  .homepage-gists__item {
+    background-color: navajowhite;
+    color: white;
+  }
 }
 
 #cookie-policy {
