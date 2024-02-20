@@ -106,10 +106,11 @@ global-header::part(anchor):hover {
     .gist-container {
       width: 60%; } }
   .gist-container .homepage-gists__item {
-    background-color: navajowhite;
-    color: white;
     margin: 1rem 0;
-    padding: 1rem 2rem; }
+    padding: 1rem 2rem;
+    border-bottom: solid 0.1em black; }
+    .gist-container .homepage-gists__item h1 {
+      border-bottom: solid 0.1em black; }
 
 #cookie-policy {
   position: fixed;
