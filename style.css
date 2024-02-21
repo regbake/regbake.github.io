@@ -111,6 +111,10 @@ global-header::part(anchor):hover {
     border-bottom: solid 0.1em black; }
     .gist-container .homepage-gists__item h1 {
       border-bottom: solid 0.1em black; }
+    .gist-container .homepage-gists__item h1, .gist-container .homepage-gists__item h2, .gist-container .homepage-gists__item h3, .gist-container .homepage-gists__item h4, .gist-container .homepage-gists__item h5, .gist-container .homepage-gists__item h6 {
+      margin: 1rem 0; }
+    .gist-container .homepage-gists__item ul, .gist-container .homepage-gists__item ol {
+      padding-left: 2rem; }
 
 #cookie-policy {
   position: fixed;
