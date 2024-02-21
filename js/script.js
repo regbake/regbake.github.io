@@ -1,5 +1,6 @@
-// http://localhost:9292/gists
 const getAllGists = () => fetch('https://www.regbake.dev/gists')
+// NOTE: Comment this out depending on Prod/Local envs
+// const getAllGists = () => fetch('http://localhost:9292/starred-gists')
   .then(function(response) {
     return response.json();
   })
