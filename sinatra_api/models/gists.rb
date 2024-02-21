@@ -2,7 +2,7 @@ require 'net/http'
 require 'uri'
 require 'json'
 require 'yaml'
-require 'pry'
+require 'pry-byebug'
 
 class Gists
   def get_all_gists

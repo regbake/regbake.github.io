@@ -1,10 +1,10 @@
 require 'rubygems'
-require 'pry'
+require 'pry-byebug'
 require 'sinatra'
 require 'sinatra/base'
 require 'sinatra/reloader'
 
-require_relative 'get_gists'
+require_relative 'models/gists'
 require_relative 'mock_gist_response'
 
 class App < Sinatra::Base
@@ -22,10 +22,27 @@ class App < Sinatra::Base
     foo
   end
 
-  get '/gists' do
+  get '/foo' do
     gists = Gists.new
-    response = gists.build_response
+    response = gists.build_response true
     response
+  end
+
+  get '/starred-gists' do
+    t = Time.new
+    today_in_strf = t.strftime("%d-%m-%Y")
+    cache_file = File.join "cache", today_in_strf
+    if !File.exist? cache_file || (File.mtime cache_file < (Time.now - 3600*24))
+      gists = Gists.new
+      response = gists.build_response true
+      
+      File.open cache_file, "w" do |f|
+        f << response
+      end
+    end
+    
+    data = File.read cache_file
+    data
   end
 
   get '/test-gists' do
