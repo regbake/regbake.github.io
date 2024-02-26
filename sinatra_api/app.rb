@@ -15,6 +15,7 @@ class App < Sinatra::Base
   before do
     response.headers['Access-Control-Allow-Origin'] = 'http://localhost:5678' if settings.development?
     response.headers['Access-Control-Allow-Origin'] = 'https://www.lifeonthereg.com' if settings.production?
+    response.headers['X-Robots-Tag'] = 'noindex'
   end
 
   get '/' do
