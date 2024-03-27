@@ -25,13 +25,23 @@ const AudioPlayer = (props) => {
     'giddy_ditty_outro',
   ];
 
-  const audioElements = document.getElementsByTagName('audio');
+  const goingUpList = [
+    'ditty101',
+    'area51',
+    '2-5',
+    '2-6',
+    '2-7',
+    '2-9',
+    '102degree_cut',
+  ];
 
-  const playAllAtOnce = () => {
-    for (const audioElement of audioElements){
-      audioElement.play();
-    }
-  };
+  const albumData = {
+    showMeYour: 'https://i.imgur.com/ZuVozuCl.jpg',
+    six: 'https://i.imgur.com/X4bFJxLl.jpg',
+    goingUp: 'https://i.imgur.com/VF6AMyBl.jpg',
+  }
+
+  const audioElements = document.getElementsByTagName('audio');
 
   const playAll = () => {
     // start by playing first item
@@ -47,22 +57,48 @@ const AudioPlayer = (props) => {
     }
   }
 
-  const toggleAlbum = () => {
-    return album === 'six' ? setAlbum('showMeYour') : setAlbum('six');
+  const toggleAlbum = (albumName) => {
+    // return album === 'six' ? setAlbum('showMeYour') : setAlbum('six');
+    if (albumName === 'six') {
+      setAlbum('six');
+    } else if (albumName === 'showMeYour') {
+      setAlbum('showMeYour');
+    } else {
+      setAlbum('goingUp');
+    }
   }
 
   const handleShowAlbum = () => {
+    // if (album === 'six') {
+    //   return showSix();
+    // }
+
+    // return showDittyList();
     if (album === 'six') {
       return showSix();
+    } else if (album === 'showMeYour') {
+      // aka "showMeYour"
+      return showDittyList()
+    } else {
+      return showGoingUp();
     }
-
-    return showDittyList();
   }
 
   const handleShowImage = () => {
-    const srcImage = (album === 'showMeYour'
-      ? "https://i.imgur.com/ZuVozuCl.jpg"
-      : "https://i.imgur.com/X4bFJxLl.jpg");
+    // going up photo
+    // https://i.imgur.com/VF6AMyBl.jpg
+    // const srcImage = (album === 'showMeYour'
+    //   ? "https://i.imgur.com/ZuVozuCl.jpg"
+    //   : "https://i.imgur.com/X4bFJxLl.jpg");
+    let srcImage = "https://i.imgur.com/ZuVozuCl.jpg";
+    if (album === 'six') {
+      srcImage = "https://i.imgur.com/X4bFJxLl.jpg";
+    } else if (album === 'showMeYour') {
+      srcImage = "https://i.imgur.com/ZuVozuCl.jpg";
+    } else {
+      srcImage = "https://i.imgur.com/VF6AMyBl.jpg";
+    }
+
     return (
       <div>
         <h2>{album}</h2>
@@ -71,13 +107,42 @@ const AudioPlayer = (props) => {
     )
   }
 
+  const selectAlbum = () => {
+    return (
+      Object.entries(albumData).map(
+        (album) => (
+          <div key={album[0]}>
+            <button onClick={() => toggleAlbum(album[0])}>
+              <img src={album[1]} />
+              <h4>Play {album[0]}</h4>
+            </button>
+          </div>
+        )
+      )
+    )
+  }
+
+  const showGoingUp = () => {
+    return (
+      goingUpList.map(item => (
+        <div key={item} className="audio-element-container">
+          <h3>{item}</h3>
+          <audio
+            src={`ditty-albums/goingUp/${item}.mp3`}
+            controls
+          />
+        </div>
+      ))
+    )
+  }
+
   const showSix = () => {
     return (
       sixList.map(item => (
-        <div key={item} class="audio-element-container">
+        <div key={item} className="audio-element-container">
           <h3>{item}</h3>
           <audio
-            src={`/six/${item}.mp3`}
+            src={`ditty-albums/six/${item}.mp3`}
             controls
           />
         </div>
@@ -88,10 +153,10 @@ const AudioPlayer = (props) => {
   const showDittyList = () => {
     return (
       dittyList.map(item => (
-        <div key={item} class="audio-element-container">
+        <div key={item} className="audio-element-container">
           <h3>{item}</h3>
           <audio
-            src={`/showmeyour/${item}.mp3`}
+            src={`ditty-albums/showmeyour/${item}.mp3`}
             controls
           />
         </div>
@@ -101,21 +166,24 @@ const AudioPlayer = (props) => {
 
 
   return (
-    <div class="main-audio-container">
-      <div class="audio-elements">
-        <div>
-          <button onClick={playAll}>play all</button>
-          {/* <button onClick={playAllAtOnce}>play all at once</button> */}
-          <button onClick={toggleAlbum}>toggle collection</button>
+    <div>
+      <div className="album-selection-container">
+        {selectAlbum()}
+      </div>
+      <div className="main-audio-container">
+        <div className="audio-elements">
+          <div>
+            <button onClick={playAll}>play all</button>
+            {
+              handleShowAlbum()
+            }
+          </div>
+        </div>
+        <div className="image-container">
           {
-            handleShowAlbum()
+            handleShowImage()
           }
         </div>
-      </div>
-      <div class="image-container">
-        {
-          handleShowImage()
-        }
       </div>
     </div>
   );
@@ -123,6 +191,4 @@ const AudioPlayer = (props) => {
 
 const domContainer = document.querySelector('#audio-player');
 const root = ReactDOM.createRoot(domContainer);
-// root.render(AudioPlayer('hello'));
 root.render(<AudioPlayer props='hello' />);
-// ReactDOM.render(<AudioPlayer props='hello' />, domContainer);

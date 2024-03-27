@@ -44,6 +44,19 @@
     .audio-elements audio {
       width: 250px; } }
 
+.album-selection-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+  @media (min-width: 800px) {
+    .album-selection-container {
+      flex-direction: row; } }
+  .album-selection-container div {
+    margin: 1rem; }
+  .album-selection-container img {
+    object-fit: cover;
+    height: 15rem; }
+
 * {
   margin: 0;
   padding: 0;
