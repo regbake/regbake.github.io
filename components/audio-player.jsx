@@ -85,17 +85,13 @@ const AudioPlayer = (props) => {
   }
 
   const handleShowImage = () => {
-    // going up photo
-    // https://i.imgur.com/VF6AMyBl.jpg
-    // const srcImage = (album === 'showMeYour'
-    //   ? "https://i.imgur.com/ZuVozuCl.jpg"
-    //   : "https://i.imgur.com/X4bFJxLl.jpg");
     let srcImage = "https://i.imgur.com/ZuVozuCl.jpg";
     if (album === 'six') {
       srcImage = "https://i.imgur.com/X4bFJxLl.jpg";
     } else if (album === 'showMeYour') {
       srcImage = "https://i.imgur.com/ZuVozuCl.jpg";
     } else {
+      // goingUp
       srcImage = "https://i.imgur.com/VF6AMyBl.jpg";
     }
 
@@ -110,11 +106,11 @@ const AudioPlayer = (props) => {
   const selectAlbum = () => {
     return (
       Object.entries(albumData).map(
-        (album) => (
-          <div key={album[0]}>
-            <button onClick={() => toggleAlbum(album[0])}>
-              <img src={album[1]} />
-              <h4>Play {album[0]}</h4>
+        (albumArr) => (
+          <div key={albumArr[0]} className={`${albumArr[0] === album ? 'select-album-border' : ''}`}>
+            <button onClick={() => toggleAlbum(albumArr[0])}>
+              <img src={albumArr[1]} />
+              <h4>Play {albumArr[0]}</h4>
             </button>
           </div>
         )

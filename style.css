@@ -44,6 +44,9 @@
     .audio-elements audio {
       width: 250px; } }
 
+.select-album-border {
+  border: dotted 6px yellow; }
+
 .album-selection-container {
   display: flex;
   flex-direction: column;
@@ -53,6 +56,8 @@
       flex-direction: row; } }
   .album-selection-container div {
     margin: 1rem; }
+    .album-selection-container div button:hover {
+      cursor: pointer; }
   .album-selection-container img {
     object-fit: cover;
     height: 15rem; }
