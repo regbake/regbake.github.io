@@ -31,7 +31,7 @@ class App < Sinatra::Base
 
   get '/starred-gists' do
     t = Time.new
-    today_in_strf = t.strftime("%d-%m-%Y")
+    today_in_strf = t.strftime("%m-%d-%Y")
     cache_file = File.join "cache", today_in_strf
     if !File.exist? cache_file || (File.mtime cache_file < (Time.now - 3600*24))
       gists = Gists.new
