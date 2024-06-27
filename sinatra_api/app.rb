@@ -19,8 +19,7 @@ class App < Sinatra::Base
   end
 
   get '/' do
-    foo = 'haha'
-    foo
+    'haha'
   end
 
   get '/foo' do
@@ -33,10 +32,11 @@ class App < Sinatra::Base
     t = Time.new
     today_in_strf = t.strftime("%m-%d-%Y")
     cache_file = File.join "cache", today_in_strf
+    # TODO: need some way to delete previous cache files
     if !File.exist? cache_file || (File.mtime cache_file < (Time.now - 3600*24))
       gists = Gists.new
       response = gists.build_response true
-      
+
       File.open cache_file, "w" do |f|
         f << response
       end
@@ -45,6 +45,8 @@ class App < Sinatra::Base
     data = File.read cache_file
     data
   end
+
+  # TODO: Cache busting endpoint
 
   get '/test-gists' do
     gists = Gists.new

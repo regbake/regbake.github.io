@@ -18,7 +18,10 @@ const getAllGists = () => fetch('https://www.regbake.dev/starred-gists')
         </ul>
       `,
       "<h3>over the lazy</h3>",
-      "<p>dog.</p>"
+      "<p>dog.</p>",
+      "Instead check out",
+      "12th Handyman"
+
     ];
   })
   .then((arr) => {
