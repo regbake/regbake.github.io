@@ -1,5 +1,5 @@
 ## Development
-* bundle exec rackup - :9292
+* bundle exec rackup -p 9292
 
 ## Prod
 * nohup ruby app.rb >> /log/file 2>&1 &
