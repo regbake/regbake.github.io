@@ -46,7 +46,6 @@ class App < Sinatra::Base
     data
   end
 
-  # TODO: Cache busting endpoint
   get '/bust-a-cache' do
     t = Time.new
     today_in_strf = t.strftime("%m-%d-%Y")
