@@ -124,6 +124,7 @@ global-header::part(anchor):hover {
     .gist-container {
       width: 60%; } }
   .gist-container .homepage-gists__item {
+    background-color: rgb(40,38,36);
     margin: 1rem 0;
     padding: 1rem 2rem;
     border-bottom: solid 0.1em black; }
