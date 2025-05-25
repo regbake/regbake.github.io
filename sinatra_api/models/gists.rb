@@ -84,6 +84,7 @@ class Gists
     html_urls.take 5
   end
 
+  # TODO: Paginate results
   def most_recent_starred_gists
     html_urls = JSON.parse(get_all_starred_gists).map do |item|
       files = item["files"]
