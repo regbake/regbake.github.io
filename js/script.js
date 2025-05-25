@@ -29,8 +29,11 @@ const getAllGists = () => fetch('https://www.regbake.dev/starred-gists')
       // <script src="https://gist.github.com/regbake/fd7dc13cb9a6a946c56c7cd2acf71259.js"></script>
       const el = document.getElementById('homepage-gists');
       const newTag = document.createElement('div');
+      console.log('markup is: ', markup)
       newTag.className = 'homepage-gists__item'
-      newTag.innerHTML = markup;
+      let temp_markup = markup;
+      temp_markup[0] = "Last updated at: " + temp_markup[0];
+      newTag.innerHTML = temp_markup;
       el.appendChild(newTag);
     })
   });

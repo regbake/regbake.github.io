@@ -84,12 +84,15 @@ class Gists
     html_urls.take 5
   end
 
-  # TODO: Paginate results
+  # TODO: Paginate results!!!
   def most_recent_starred_gists
+    # currently returns a touple with updated_at time
+
     html_urls = JSON.parse(get_all_starred_gists).map do |item|
+      updated_at = item["updated_at"]
       files = item["files"]
       gist_name = files.keys[0]
-      item["files"][gist_name]["raw_url"]
+      [updated_at, item["files"][gist_name]["raw_url"]]
     end
 
     html_urls.take 5
@@ -100,8 +103,8 @@ class Gists
     markdown = Redcarpet::Markdown.new(Redcarpet::Render::HTML, extensions = {})
     arr.map do |item|
       # find link to raw gist md, request it and convert
-      raw_md = request_url_content item
-      markdown.render raw_md
+      raw_md = request_url_content item[1]
+      [item[0], markdown.render(raw_md)]
     end
   end
 
