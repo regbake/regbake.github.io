@@ -3,3 +3,4 @@ node_modules
 # ./oldnews
 # ./photos
 # ./radcast
+*.swp
