@@ -4,3 +4,4 @@ node_modules
 # ./photos
 # ./radcast
 *.swp
+.DS_Store
