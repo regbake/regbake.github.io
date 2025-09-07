@@ -687,6 +687,9 @@ a {
     margin: 12px 0;
 }
 
+.profile-description > .profile-description__content {
+}
+
 .profile-description h2 {
     color: #333;
     margin: 10px 0 20px;
