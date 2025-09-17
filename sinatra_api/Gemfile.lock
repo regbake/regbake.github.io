@@ -17,7 +17,7 @@ GEM
       pry (>= 0.13, < 0.15)
     puma (6.4.2)
       nio4r (~> 2.0)
-    rack (3.0.8)
+    rack (3.0.16)
     rack-protection (4.0.0)
       base64 (>= 0.1.0)
       rack (>= 3.0.0, < 4)
@@ -47,11 +47,12 @@ GEM
 
 PLATFORMS
   x86_64-darwin-19
+  x86_64-linux
 
 DEPENDENCIES
   pry-byebug
   puma
-  rack (~> 3.0.8)
+  rack (~> 3.0.16)
   rackup
   redcarpet
   sinatra
