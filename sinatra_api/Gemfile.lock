@@ -43,10 +43,11 @@ GEM
     sinatra-reloader (1.0)
       sinatra-contrib
     tilt (2.0.11)
-    webrick (1.8.1)
+    webrick (1.8.2)
 
 PLATFORMS
   x86_64-darwin-19
+  x86_64-linux
 
 DEPENDENCIES
   pry-byebug
