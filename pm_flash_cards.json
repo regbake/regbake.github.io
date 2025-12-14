@@ -1,0 +1,781 @@
+{"data":
+  [
+    {
+      "question": "What is WBS?",
+      "answer": "'Work breakdown structure' The process of subdividing project deliverables and project work into smaller more manageable components. Hierarchical structure so all child work is encompassed by parent work - sometimes called the '100% rule'. The WBS is the scope baseline; technically the WBS, the WBS dictionary, and the detailed project scope are the scope baseline. "
+    },
+    {
+      "question": "What is the PMO",
+      "answer": "Project Management Office. An organizational structure to standardize the project related processes/resources/methodologies/tools/techniques"
+    },
+    {
+      "question": "What is scope baseline?",
+      "answer": "Approved version of a scope statement, WBS, and the WBS dictionary. Often synonymous with just WBS, though."
+    },
+    {
+      "question": "What is the WBS dictionary?",
+      "answer": "A document that provides detailed deliverable, activity, and scheduling information about WBS components. Supporting document for WBS. May include: code of account identifier, description of work, assumptions/constraints, milestones, estimates, requirements, technical references, and agreement information."
+    },
+    {
+      "question": "What are the components for the Project Management Plan?",
+      "answer": "1. Scope Management Plan 2. Requirements Management Plan 3. Schedule Management Plan 4. Cost Management Plan 5. Quality Management Plan 6. Resource Management Plan 7. Communications Management Plan 8. Risk Management Plan 9. Procurement Management Plan 10. Stakeholder Engagement Plan 11. Change Management Plan 12. Configuration Management Plan 13. Scope Baseline 14. Schedule Baseline 15. Cost Baseline 16. Performance Measurement 17. Project Life Cycle Description 18. Development Approach"
+    },
+    {
+      "question": "What are the Project Documents?",
+      "answer": "1. Activity attributes 2. Activity list 3. Assumption log 4. Basis of estimates 5. Change log 6. Cost estimates 7. Cost forecasts 8. Duration estimates 9. Issue log 10. Lessons learned register 11. Milestone list 12. Physical resource assignments 13. Project calendars 14. Project communications 15. Project schedule 16. Project schedule network diagram 17. Project scope statement 18. Project team assignments 19. Quality control measurements 20. Quality metrics 21. QUality report 22. Requirements documentation 23. Requirements traceability matrix 24. Resource breakdown structure 25. Resource calendars 26. Resource requirements 27. Risk register 28. Risk report 29. Schedule data 30. Schedule forecasts 31. Stakeholder register 32. Team charter 33. Test and evaluation documents"
+    },
+    {
+      "question": "What is a Mandatory Dependency?",
+      "answer": "Legally or contractually required for the work to take place. Often involve physical limitations i.e. 'cannot walk until can run'"
+    },
+    {
+      "question": "What is a Discretionary Dependency?",
+      "answer": "A soft logic dependency. Established based on knowledge of best practices. Should be fully documented - can create arbitrary total float values and limit later scheduling options."
+    },
+    {
+      "question": "What are External Dependencies?",
+      "answer": "Involve a relationship between project and non-project activities. Generally outside of the project team's control."
+    },
+    {
+      "question": "What are Internal Dependencies?",
+      "answer": "Involve a precedence relationship between project activities and are generally within the Project Team's control."
+    },
+    {
+      "question": "What are Contingency Reserves?",
+      "answer": "Associated with Known-Unknowns and are usually added to the PMP."
+    },
+    {
+      "question": "What are Management Reserves?",
+      "answer": "Associated with Unknown-Unknowns and not added to the PMP."
+    },
+    {
+      "question": "What are Project Calendars?",
+      "answer": "Identifies the working days and shifts the project will follow."
+    },
+    {
+      "question": "What is Critical Path Method?",
+      "answer": "Based on sequence of longest activities. Used to estimate the minimum project duration and to determine the amount of schedule flexibility."
+    },
+    {
+      "question": "(BAC) Budget at Completion?",
+      "answer": "Sum of all budgets established for the work to be performed."
+    },
+    {
+      "question": "(EAC) Estimate at Completion?",
+      "answer": "Expected total cost of completing all work expressed as the sum of the actual cost to date and the estimate to complete."
+    },
+    {
+      "question": "(TCPI) To-Complete Performance Index",
+      "answer": "Measure of the cost performance required to be achieved with the remaining resources to meet goal."
+    },
+    {
+      "question": "(CPI) Cost Performance Index",
+      "answer": "Measure of the cost efficiency of budgeted resources expressed as the ratio of earned value to actual cost. CPI = EV/AC"
+    },
+    {
+      "question": "(EVM) Earned Value Management",
+      "answer": "Compares the performance measurement baseline to the actual schedule and cost performance. EVM integrates the scope baseline with the cost baseline + schedule baseline to for the Performance Measurement Baseline"
+    },
+    {
+      "question": "What is Parametric Estimating?",
+      "answer": "Estimating technique using algorithms to calculate cost based on project parameters. I.e. square footage or meters of cable/hr"
+    },
+    {
+      "question": "What is the Resource Calendar?",
+      "answer": "Resource calendars influence the duration of schedule activities due to the availability of specific resources, type of resources, and resources with specific attributes. Resource calendars specify when and how long identified project resources will be available during the project."
+    },
+    {
+      "question": "What is the Tuckman ladder?",
+      "answer": "Describes five stages of development a team may go through: Forming, Storming, Norming, Performing, and Adjourning."
+    },
+    {
+      "question": "What is Theory X?",
+      "answer": "Theory that involves managers who distrust their workers and believe people do not like to work and need to be managed constantly. They are known as micromanagers and can lead to poor morale among team members."
+    },
+    {
+      "question": "What is Theory Y?",
+      "answer": "A positive theory of workers that assumes employees typically enjoy their jobs and work to better themselves without direct reward in return."
+    },
+    {
+      "question": "What is Theory Z?",
+      "answer": "Unlike Theories X and Y, Theory Z recognizes a transcendent dimension to work and worker motivation. An optimal managerial style would help cultivate worker creativity, insight, meaning and moral excellence."
+    },
+    {
+      "question": "What is Expert Power?",
+      "answer": "When the project manager is an expert in the project field."
+    },
+    {
+      "question": "What is Manage Team?",
+      "answer": "The manage team process is about tracking team member performance, providing feedback, and resolving issues."
+    },
+    {
+      "question": "What is Develop Team?",
+      "answer": "The process of developing a team is about bringing the team together and ensuring they work efficiently."
+    },
+    {
+      "question": "What is Leadership?",
+      "answer": "The ability to lead a team and inspire them to do their job well."
+    },
+    {
+      "question": "What is Influencing?",
+      "answer": "The ability to persuade individuals to take a position on something."
+    },
+    {
+      "question": "What is Control Resources?",
+      "answer": "Process of ensuring the physical resources assigned and allocated to the project are available as planned, as well as monitoring the planned versus actual use of resources, and performing corrective action as necessary."
+    },
+    {
+      "question": "What is the communications formula?",
+      "answer": "N(N-1) / 2"
+    },
+    {
+      "question": "What is Manage Communications?",
+      "answer": "The process of ensuring the timely and appropriate collection, creation, management, and distribution of project information."
+    },
+    {
+      "question": "What is the Work Performance Report?",
+      "answer": "Work performance information is combined, recorded, and distributed in physical or electronic form in order to create awareness and generate decisions or actions. They are circulated to the project stakeholders through the communication processes as defined in the project communications management plan."
+    },
+    {
+      "question": "What is Project Reporting?",
+      "answer": "A tool used in the manage communication process to collect and distribute project information."
+    },
+    {
+      "question": "Individual Project Risk?",
+      "answer": "An uncertain event or condition that, if occurs, has a positive or negative effect on one or more project objectives."
+    },
+    {
+      "question": "Overall project risk?",
+      "answer": "The effect of uncertainty on the project as a whole, arising from all sources of uncertainty including individual risks, representing the exposure of stakeholders to the implications of variations in project outcome, both positive and negative."
+    },
+    {
+      "question": "Risk breakdown structure?",
+      "answer": "Part of the risk management plan, it shows the different categories of risk on the project."
+    },
+    {
+      "question": "SWOT analysis",
+      "answer": "Risk data analysis technique examines the project from each of the Strengths, Weaknesses, Opportunities, and Threats. Used to increase the breadth of identified risks by including internally generates risks."
+    },
+    {
+      "question": "Document analysis",
+      "answer": "Risk data analysis technique where risks may be identified from a structured review of project documents, including, but not limited to, plans, assumptions, constraints, previous project files, contracts, agreements, and technical documents."
+    },
+    {
+      "question": "Risk report?",
+      "answer": "Generally created with or after the risk register. It will include information on the sources of overall project risks and a summary of information on the identified individual project risks."
+    },
+    {
+      "question": "Risk data quality assessment",
+      "answer": "Evaluates the degree to which the data about individual project risks is accurate and reliable as a basis for qualitative risk analysis. "
+    },
+    {
+      "question": "Preapproved seller lists",
+      "answer": "List of sellers that have been properly vetted can streamling the steps needed to advertise the opportunity and shorten the timeline for the seller selection process."
+    },
+    {
+      "question": "Source Selection Criteria",
+      "answer": "A set of attributes desired by the buyer which a seller is required to meet or exceed to be selected for a contract."
+    },
+    {
+      "question": "Procurement Management Plan",
+      "answer": "Establishes how the project team will acquire goods and services from outside of the performing organization."
+    },
+    {
+      "question": "Stakeholder engagement plan",
+      "answer": "Establishes how stakeholders will be engaged in project decisions and execution, according to their needs, interests, and impact."
+    },
+    {
+      "question": "Procurement Strategy",
+      "answer": "The approach by the buyer to determine the project delivery method and the type of legally binding agreement(s) that should be used to deliver the desired results."
+    },
+    {
+      "question": "What is an Agreement?",
+      "answer": "An agreement can contain things like pricing and payment terms, inspection, warranty, incentives, penalties, and insurance + performance bonds. "
+    },
+    {
+      "question": "What is Procurement Strategy?",
+      "answer": "Strategies include documented delivery methods, types of agreements, and the different procurement phases of the project."
+    },
+    {
+      "question": "What should be contained in the User Story?",
+      "answer": "Type, need/want, and value"
+    },
+    {
+      "question": "What is the Procurement Statemend of Work?",
+      "answer": "Describes the procurement item insufficient detail to allow prospective sellers to determine if they are capable of providing the products, services, or results. Contains information like specifications and quality."
+    },
+    {
+      "question": "What is the Stakeholder Engagement Assessment Matrix?",
+      "answer": "A tool to analyze and document the level of engagement of each stakeholder/group of stakehoders. Helps in planning and monitoring engagement during project."
+    },
+    {
+      "question": "Salience Model",
+      "answer": "Describes classes of stakeholders based on assessments of their power, urgency, legitimacy."
+    },
+    {
+      "question": "Project Integration Management",
+      "answer": "Project Integration Management includes the processes and activities to identify, define, combine, unify, and coordinate the various processes and project management activities within the Project Management Process Groups.",
+      "description": "Knowledge Area"
+    },
+    {
+      "question": "Project Stakeholder Management",
+      "answer": "Processes required to identify the people/groups/orgs. that could impact/be impacted by project, analyze stakeholder expectations, how to engage stakeholders in project decisions and execution throughout project.",
+      "description": "Knowledge Area"
+    },
+    {
+      "question": "Project Procurement Management",
+      "answer": "Processes necessary to purchase or acquire products, services, or results needed from outside the project team.",
+      "description": "Knowledge Area"
+    },
+    {
+      "question": "Project Risk Management",
+      "answer": "Processes of conducting risk management, planning, identification, analysis, response planning, response implementation, and monitoring risks on the project.",
+      "description": "Knowledge Area"
+    },
+    {
+      "question": "Project Communications Management",
+      "answer": "Processes required to ensure timely and appropriate planning, collection, creation, distribution, storage, retrieval, management, control, monitoring, and ultimate disposition of project information.",
+      "description": "Knowledge Area"
+    },
+    {
+      "question": "Project Resource Management",
+      "answer": "Processes to identify, acquire, and manage the resources needed for the successful completion of the project.",
+      "description": "Knowledge Area"
+    },
+    {
+      "question": "Project Quality Management",
+      "answer": "Processes for incorporating the organization's quality policy regarding the planning, managing, and controlling project + product quality requirements, in order to meet stakeholder expectations.",
+      "description": "Knowledge Area"
+    },
+    {
+      "question": "Project Cost Management",
+      "answer": "Processes involved in planning, estimating, budgeting, financing, funding, managing, and controlling costs so the project can be completed within the approved budget.",
+      "description": "Knowledge Area"
+    },
+    {
+      "question": "Project Schedule Management",
+      "answer": "Processes required to manage the timely completion of the project.",
+      "description": "Knowledge Area"
+    },
+    {
+      "question": "Project Scope Management",
+      "answer": "Processes required to ensure the project includes all the work required, and only the work required, to complete the project successfully.",
+      "description": "Knowledge Area"
+    },
+    {
+      "question": "Project Business Case",
+      "answer": "Documented feasibility study used to establish the validity of the benefits of a component. Lists the objectives and reasons for projcet initiation. Document used throughout project lifecycle. Needs assessment often precedes business case.",
+      "description": ""
+    },
+    {
+      "question": "Requirements Traceability Matrix",
+      "answer": "Links product requirements to the deliverables that satisfy them and to help focus on the final outcomes.",
+      "description": ""
+    },
+    {
+      "question": "Project Benefits Management Plan",
+      "answer": "Documented explanation defining the processes for creating, maximizing, and sustaining the benefits provided by a project.",
+      "description": ""
+    },
+    {
+      "question": "What is a Gantt chart?",
+      "answer": "A project management tool used to track how a project is progressing. Can show dependencies of tasks.",
+      "description": ""
+    },
+    {
+      "question": "What is the Risk Register?",
+      "answer": "The risk register captures details of identified individual project risks. The results of Performn Qualitative Risk Analysis, Plan Risk Responses, Implement Risk Responses, and Monitor Risks are recorded in the risk register as those processes are conducted throughout the project. The risk register includes root causes of risk.",
+      "description": ""
+    },
+    {
+      "question": "What is Reserve analysis?",
+      "answer": "Reserve analysis is used to determine the amount of contingency and management reserve needed for the project. Duration estimates may include contingency reserves, sometimes referred to as schedule reserves, to account for schedule uncertainty .Contingency reserves are the estimated duration within the schedule baseline, which is allocated for identified risks that are accepted. Contingency reserves are associated with the known-unknowns, which may be estimated to account for this unknown amount of rework. When a risk depletes the contingency reserve it calls for reserve analysis in relation to the amount of remaining risks within the project.",
+      "description": ""
+    },
+    {
+      "question": "Why should the project manager work to develop the project team?",
+      "answer": "Part of team development is to increase each team member's ability to complete the project work.",
+      "description": ""
+    },
+    {
+      "question": "What is resource smoothing?",
+      "answer": "A technique that adjusts the activities of a schedule model such that the requirements for resources on the project do not exceed certain predefined resource limits. Smoothing smoothes out the conflict by minimize the perceived size of the problem.",
+      "description": ""
+    },
+    {
+      "question": "Who issues the project charter?",
+      "answer": "The project sponsor issues the charter. The project charter is signed and issued by an entity in the organization that has the power to authorize the project manager to utilize the needed resources for the project to be successful.",
+      "description": ""
+    },
+    {
+      "question": "Who creates the WBS?",
+      "answer": "The project team creates the WBS.",
+      "description": ""
+    },
+    {
+      "question": "What is schedule performance index (SPI)?",
+      "answer": " The schedule performance index (SPI) is a measure of schedule efficiency expressed as the ratio of earned value to planned value. It measures how efficiently the project team is accomplishing the work. It is sometimes used in conjunction with the cost performance index (CPI) to forecast the final project completion estimates. An SPI value less than 1.0 indicates less work was completed than was planned. An SPI greater than 1.0 indicates that more work was completed than was planned. Since the SPI measures all project work, the performance on the critical path also needs to be analyzed to determine whether the project will finish ahead of or behind its planned finish date. The SPI is equal to the ratio of the EV to the PV . Equation: SPI = EV/PV ",
+      "description": ""
+    },
+    {
+      "question": "What is collective bargaining agreement?",
+      "answer": "The agreement between management and the labor union",
+      "description": ""
+    },
+    {
+      "question": "Where is the scope change control system documented?",
+      "answer": "The change control system is documented in the project scope management plan.",
+      "description": ""
+    },
+    {
+      "question": "What is the 8/80 Rule",
+      "answer": "The 8/80 Rule states that the work package should not equate to less than eight hours of labor to create and no more than 80 hours of labor to create.",
+      "description": "If you assume an employee puts in 8h days, this rule would mean that a task takes no longer than two man-weeks and no less than one man-day. This ensures that the task is large enough to be meaningful, but not so long as to have no visibility into what is happening. In other words, a task that takes 4h may not be worth doing--it could be wrapped up with something larger. A task that takes longer than 2 weeks may be too long and complex, and should be broken up into smaller tasks."
+    },
+    {
+      "question": "What is the scope change control system",
+      "answer": "The scope change control system documents how changes are authorized for a project.",
+      "description": ""
+    },
+    {
+      "question": "Who actually creates the WBS?",
+      "answer": "The project team creates the WBS.",
+      "description": ""
+    },
+    {
+      "question": "What must a T&M contract type have?",
+      "answer": "A T&M contract must have a not-to-exceed (NTE) clause or the cost can spin out of control.",
+      "description": ""
+    },
+    {
+      "question": "What is to 'rebaseline the project'.",
+      "answer": "Rebaselining the project is probably the best solution in this instance because the project is in such disarray. This also allows the project manager to record and compare work actions from this point forward.",
+      "description": ""
+    },
+    {
+      "question": "What is Sapir-Whorf hypothesis?",
+      "answer": "The Sapir-Whorf Hypotheses believes that an understanding of the culture, local language, and colloquialisms allows people to have a better understanding of the country they're working in",
+      "description": ""
+    },
+    {
+      "question": "Which type of quality control chart shows the history and pattern of variation?",
+      "answer": "Run chart. Run charts show the history and pattern of variation",
+      "description": ""
+    },
+    {
+      "question": "The decision to move forward with the project will be based on your initial estimate. You have just started the project so what estimate type will you likely provide?",
+      "answer": "This early estimate is the rough order of magnitude estimate.",
+      "description": ""
+    },
+    {
+      "question": "What is stakeholder analysis",
+      "answer": "Interviewing the project stakeholders is a common stakeholder analysis activity to promote stakeholder engagement. ",
+      "description": ""
+    },
+    {
+      "question": "What is The Configuration Management System",
+      "answer": "The Configuration Management System is responsible for identifying and documenting the functional and physical characteristics of a product or component that a project is creating.",
+      "description": ""
+    },
+    {
+      "question": "What are the types of  approved change requests?",
+      "answer": " may be a corrective action, a preventive action, or a defect repair.",
+      "description": ""
+    },
+    {
+      "question": "What is the lessons learned register?",
+      "answer": "Updated as necessary throughout the project with techniques that are efficient and effective in controlling scope, including causes of variances and corrective actions chosen.",
+      "description": ""
+    },
+    {
+      "question": "What is the Staffing Management Plan?",
+      "answer": "The Staffing Management Plan does define compliance issues with union contracts.",
+      "description": ""
+    },
+    {
+      "question": "What is a Functional Organization?",
+      "answer": "An organizational structure in which staff is grouped by areas of specialization and the project manager has limited authority to assign work and apply resources.",
+      "description": ""
+    },
+    {
+      "question": "What are the five inputs to consider for a project charter?",
+      "answer": "Project statement of work, business case, agreements, enterprise environmental factors , and organizational process assets.",
+      "description": ""
+    },
+    {
+      "question": "What is Progressive elaboration",
+      "answer": "Progressive elaboration means developing in steps and continuing in increments, as in the WBS creation.",
+      "description": ""
+    },
+    {
+      "question": "What three components are measured in a salience model?",
+      "answer": "The salience model uses three circles, typically, to map out a stakeholders power, urgency, and legitimacy in the project.",
+      "description": ""
+    },
+    {
+      "question": "What is a Pareto chart?",
+      "answer": "Based on the Pareto principle (80/20 rule) The Pareto chart is one of the seven basic tools of quality control. The left vertical axis is the frequency of occurrence, but it can alternatively represent cost or another important unit of measure. The right vertical axis is the cumulative percentage of the total number of occurrences, total cost, or total of the particular unit of measure.",
+      "description": ""
+    },
+    {
+      "question": "What is the critical chain method?",
+      "answer": "It is a schedule network analysis that accounts for limited resources.",
+      "description": ""
+    },
+    {
+      "question": "Why do scope validation?",
+      "answer": "It measures customer satisfaction through their acceptance of the project deliverable.",
+      "description": ""
+    },
+    {
+      "question": "What is a risk audit?",
+      "answer": "It is an activity to determine the effectiveness of the risk responses.",
+      "description": ""
+    },
+    {
+      "question": "What is the utility method?",
+      "answer": "The Utility method describes an organizations willingness to accept risk, and the willingness to accept risk will determine the level of response required for the identified risks. ",
+      "description": ""
+    },
+    {
+      "question": "What is grade of a product?",
+      "answer": "Grade, according to the PMP Study Guide, is a category or rank given to entities having the same functional use but different technical characteristics.",
+      "description": ""
+    },
+    {
+      "question": "What is a Gantt chart?",
+      "answer": " scheduling tool that shows project activities across a timeline or calendar.",
+      "description": ""
+    },
+    {
+      "question": "What is Force-field analysis?",
+      "answer": "a framework for looking at the factors (forces) that influence a situation, originally social situations. It looks at forces that are either driving the movement toward a goal (helping forces) or blocking movement toward a goal (hindering forces).",
+      "description": ""
+    },
+    {
+      "question": "What is expectancy theory?",
+      "answer": "suggests that individuals are motivated to act in certain ways based on their expectations of the outcomes of those actions. It consists of three key components: expectancy (belief that effort leads to performance), instrumentality (belief that performance leads to rewards), and valence (value placed on those rewards).",
+      "description": ""
+    },
+    {
+      "question": "What are Indirect costs?",
+      "answer": "Indirect costs are shared across multiple projects",
+      "description": ""
+    },
+    {
+      "question": "What is the Delphi technique?",
+      "answer": "The Delphi technique is a structured method for gathering expert opinions through a series of questionnaires, aiming to reach a consensus on a specific topic. It is commonly used in forecasting and decision-making processes, allowing experts to revise their views based on the feedback from others in the group.",
+      "description": ""
+    },
+    {
+      "question": "What is decomposition?",
+      "answer": "The subdivision of project deliverables into smaller, more manageable components is called decomposition.",
+      "description": ""
+    },
+    {
+      "question": "What is crashing?",
+      "answer": "Adding resources to complete a project sooner.",
+      "description": ""
+    },
+    {
+      "question": "What are Stage gate meetings?",
+      "answer": "Stage-gate or phase review meetings represent an opportunity for project stakeholders to review project progress along with planned future actions. In these meetings, project stakeholders can assess whether or not the project is on track to meet the organization’s expectations (PMBOK 7th edition, page 42). You should schedule gate meetings at key milestones throughout your project to not only ensure it is on track but also demonstrate to the project stakeholders that you are staying on course.",
+      "description": ""
+    },
+    {
+      "question": "What is Three-point estimation?",
+      "answer": "the triangular distribution of pessimistic, optimistic, and most likely estimates. This technique is used when there is insufﬁcient historical data or when there is only judgmental data.",
+      "description": ""
+    },
+    {
+      "question": "What is the team charter",
+      "answer": "A team charter is a document that is developed in a group setting to clarify team direction while also establishing boundaries. It is created at the team’s forming phase in order to encourage understanding and buy-in. A team charter aligns the team with ground rules, team values, meeting guidelines, working agreements, as well as other group norms",
+      "description": ""
+    },
+    {
+      "question": "What is lag?",
+      "answer": "In a predictive approach, Lag is when an activity is complete and there is a delay before the subsequent activity starts",
+      "description": ""
+    },
+    {
+      "question": "What are the two types of knowledge?",
+      "answer": "Knowledge can be either explicit or tacit knowledge. Explicit knowledge can be expressed and captured using pictures, words, and numbers. Tacit knowledge, such as experiences and beliefs, is more difficult to express or capture",
+      "description": ""
+    },
+    {
+      "question": "What is tailoring?",
+      "answer": "the selection of the appropriate processes, related inputs and outputs, techniques, and life cycle phases in order to manage a project (PMBOK 7th edition, page 6). Project management is the application of a set of knowledge, skills, tools, and techniques to project activities to meet the project requirements. Program management, on the other hand, is the application of knowledge, skills, tools, and techniques to meet the program requirements.",
+      "description": ""
+    },
+    {
+      "question": "What is the murder board?",
+      "answer": "A murder board is a committee of experts that critically evaluates project proposals. Project representatives have to answer the critical questions raised by the committee members in what looks like an oral exam. The murder board scrutinizes the project by looking for and pointing out reasons why the project should not be considered. The main responsibility of the murder board is to critically and aggressively review the proposed project, while it’s the proposer’s mission to reply to each and every query of the board members to prove the worth of the project.",
+      "description": ""
+    },
+    {
+      "question": "Cost of Non-Conformance can be divided into two categories:",
+      "answer": "1. Internal Failure Costs are incurred when defects are detected internally (i.e. not yet presented to the customers) which include defect repair and rework.  2. External Failure Costs are incurred when defects are discovered after the deliverables have been shipped to customers (this is the worst type of quality cost) These include warranty work, liabilities, and loss of business goodwill.",
+      "description": ""
+    },
+    {
+      "question": "What is project management?",
+      "answer": "Project management involves applying a set of processes, skills, knowledge, experience, and methods, to attain a number of predefined project objectives and requirements according to predetermined acceptance criteria",
+      "description": ""
+    },
+    {
+      "question": "What is EV and the formula?",
+      "answer": "Earned Value; EV = (BAC x % complete).",
+      "description": ""
+    },
+    {
+      "question": "What is an OPA?",
+      "answer": "Plans, processes, policies, procedures, and knowledge bases that are specific to and used by the performing organization.",
+      "description": ""
+    },
+    {
+      "question": "When to use a cost variance report?",
+      "answer": "When the real cost differs from the expected cost. During the project execution, the paving contractor informs the project manager that the district has increased the cost of linking the parking lot to the city drive",
+      "description": ""
+    },
+    {
+      "question": "What is a Control chart",
+      "answer": "determine whether or not a process is stable or has predictable performance. The project manager and appropriate stakeholders may use the statistically calculated control limits to identify the points at which corrective action will be taken to prevent performance that remains outside the control limits. Control charts can be used to monitor various types of output variables. Although used most frequently to track repetitive activities required for producing manufactured lots, control charts may also be used to monitor cost and schedule variances, volume, frequency of scope changes, or other management results to help determine if the project management processes are in control.",
+      "description": ""
+    },
+    {
+      "question": "What is Trend analysis",
+      "answer": "used to forecast future performance based on past results. It looks ahead in the project for expected slippages and warns the project manager ahead of time that there may be problems later in the schedule if established trends persist",
+      "description": ""
+    },
+    {
+      "question": "What is a decision tree?",
+      "answer": "The decision tree method can help the project manager choose the best option for their project. Decision trees are used to support the selection of the best course of action among several alternative possible options. The decision tree uses branches representing the different decisions or events and their associated costs and risks",
+      "description": ""
+    },
+    {
+      "question": "What does the SMART acronym stand for?",
+      "answer": "Specific. Measurements are specific as to what to measure. Examples include the number of defects, the defects that have been fixed, or the average time it takes to fix defects.  Meaningful. Measures should be tied to the business case, baselines, or requirements.  It is not efficient to measure product attributes or project performance that do not lead to meeting objectives or improving performance.  Achievable. The target is achievable given the people, technology, and environment.  Relevant. Measures should be relevant. The information provided by the measure should provide value and allow for actionable information.  Timely. Useful measurements are timely. Information that is old is not as useful as fresh information. Forward-looking information, such as emerging trends, can help project teams change direction and make better decisions.",
+      "description": ""
+    },
+    {
+      "question": "What is the agile manifesto?",
+      "answer": "Individuals and interactions over processes and tools Working software over comprehensive documentation Customer collaboration over contract negotiation Responding to change over following a plan",
+      "description": ""
+    },
+    {
+      "question": "What is Team Velocity?",
+      "answer": "the sum of story points’ sizes of the completed features in the current iteration, allows the team to plan its next iteration more accurately by taking into consideration their historical performance ",
+      "description": ""
+    },
+    {
+      "question": "When should the Identify Stakeholders process take place?",
+      "answer": "The “Identify stakeholders” process should take place either before or concurrently while creating and approving the project charter. Stakeholders’ identification should be carried out as many times as needed. However, it should always be executed at the beginning of each project phase and whenever a significant change occurs on both the project and the organization level. Since the first phase was complete, this means the scope has already been validated",
+      "description": ""
+    },
+    {
+      "question": "What is an Internal project?",
+      "answer": " a project in which the customer is a person or department within your company.",
+      "description": ""
+    },
+    {
+      "question": "What is delphi technique?",
+      "answer": "Wideband Delphi is a variation of the Delphi estimating method where subject matter experts complete multiple rounds of producing estimates individually, with a project team discussion after each round, until a consensus is achieved. For Wideband Delphi, those who created the highest and lowest estimates explain their rationale, following which everyone reestimates. The process repeats until convergence is achieved.  Planning poker is a variation of Wideband Delphi.",
+      "description": ""
+    },
+    {
+      "question": "What is a nominal group?",
+      "answer": "a group discussion to produce ideas and prioritize them through voting",
+      "description": ""
+    },
+    {
+      "question": "What is residual risk?",
+      "answer": "risks that remain after risk responses have been implemented. They are the leftover risks that could not be completely eliminated or mitigated. Residual risks are not new risks created by the implementation of a risk response.",
+      "description": ""
+    },
+    {
+      "question": "What is secondary risk?",
+      "answer": "a risk that arises as a direct result of implementing a risk response. When a risk response is carried out to address an initial risk, it can sometimes create new risks or unintended consequences.",
+      "description": ""
+    },
+    {
+      "question": "What are key points in scrum?",
+      "answer": "Scrum is a framework, not a methodology or process;Scrum is lightweight, not complicated; Scrum helps people, teams and organizations generate value through adaptive solutions for complex products.",
+      "description": ""
+    },
+    {
+      "question": "What is the stakeholder register?",
+      "answer": "the stakeholder register is a document that includes detailed information about each identified stakeholder. It captures their names, contact information, roles, and their position regarding the project (supportive, neutral, resistant, etc.). This document helps the project manager and team understand stakeholder expectations and influences, facilitating effective stakeholder management throughout the project lifecycle.",
+      "description": ""
+    },
+    {
+      "question": "What is the NPS?",
+      "answer": "Net Promoter Score: allows stakeholders to assign a numerical score that ranges from 0 to 10 to indicate their satisfaction level with the project, product, or service, as well as their willingness to recommend it to others",
+      "description": ""
+  },
+  {
+      "question": "What is a matrix organization?",
+      "answer": "In a matrix organization, the project manager shares responsibility for managing the project team with the Functional Manager, who oversees the team members functional work.",
+      "description": ""
+    },
+    {
+      "question": "What is SAFe?",
+      "answer": "Stands for Scaled Agile Framework focuses on providing a knowledge base of patterns for scaling development work across all levels of the enterprise.",
+      "description": ""
+    },
+    {
+      "question": "What is Resource Breakdown Structure (RBS)?",
+      "answer": "a hierarchical list of resources by category and type. It helps in identifying and organizing resources needed for the project but does not show the reporting relationships among project team members.",
+      "description": ""
+    },
+    {
+      "question": "What is Project Organization chart?",
+      "answer": "a project organization chart is a graphical display that shows the hierarchical structure of the project team members and their reporting relationships. It helps in understanding the roles and responsibilities of team members, as well as how they are organized within the project.",
+      "description": ""
+    },
+    {
+      "question": "What is the purpose of a Sprint Review?",
+      "answer": "inspect the outcome of the Sprint and determine future adaptations. The Scrum Team presents the results of their work to key stakeholders and progress toward the Product Goal is discussed. The sprint review is NOT THE SAME as the Retrospective",
+      "description": ""
+    },
+    {
+      "question": "What are the roles defined in Scrum?",
+      "answer": "Development Team, the Scrum Master, and the Product Owner.",
+      "description": ""
+    },
+    {
+      "question": "What is the output of the sprint planning meeting?",
+      "answer": "The spring backlog and the sprint goal.",
+      "description": ""
+    },
+    {
+      "question": "What are Use Case Diagrams?",
+      "answer": "visual representation of how a user interacts with a system to achieve a specific goal. They focus on the functional requirements of a system and the interactions between users and the system. Use case diagrams are particularly useful for: Identifying functional requirements: They help in understanding the system‘s capabilities from a user‘s perspective. Defining system boundaries: They clarify what is within and outside the system. Modeling complex interactions: They can represent complex scenarios involving multiple actors and systems.",
+      "description": ""
+    },
+    {
+      "question": "What is lead time?",
+      "answer": "This measure indicates the amount of elapsed time from a story or chunk of work entering the backlog to the end of the iteration or the release. Lower lead time indicates a more effective process and a more productive project team.",
+      "description": ""
+    },
+    {
+      "question": "What is a cross-functional team?",
+      "answer": "it collectively possesses all the skills required to produce a potentially shippable product increment.",
+      "description": ""
+    },
+    {
+      "question": "What is the project scope statement?",
+      "answer": "document includes the project scope, major deliverables, assumptions, and constraints",
+      "description": ""
+    },
+    {
+      "question": "What is the statement of work?",
+      "answer": "The SOW describes the procurement items to allow prospective sellers to determine if they are capable of providing the products, services, or results. The SOW can include specifications, desired quantity, quality levels, performance data, period of performance, work location, and other requirements (PMI Process Groups, page 216). Prospective sellers are responsible for submitting their proposals, including pricing details.",
+      "description": ""
+    },
+    {
+      "question": "What is a pre-production version?",
+      "answer": "a product that is almost ready for mass production but still requires some testing and refinement",
+      "description": ""
+    },
+    {
+      "question": "What is a product sample?",
+      "answer": "a representative unit of a product, often used for quality control or marketing purposes.",
+      "description": ""
+    },
+    {
+      "question": "What is the DEEP acronym?",
+      "answer": "Detailed: User stories should be clear, concise, and specific.  Estimated: User stories should be estimated to prioritize and plan work.  Emergent: The product backlog is constantly evolving and adapting to changing requirements.  Prioritized: User stories should be prioritized based on business value and other factors.",
+      "description": ""
+    },
+    {
+      "question": "What is elicitation?",
+      "answer": "It is the drawing forth or receiving of information from stakeholders or other sources. It is the main path to discovering requirements and design information, and might involve talking with stakeholders directly, researching topics, experimenting, or simply being handed information",
+      "description": ""
+    },
+    {
+      "question": "What is the key advantage of using document analysis in requirements gathering?",
+      "answer": "It saves time for stakeholders during in-person elicitation activities",
+      "description": ""
+    },
+    {
+      "question": "What is a product roadmap?",
+      "answer": "Product vision: The long-term goal for the product.  Key features and functionalities: The core capabilities that the product will offer.  Release schedule: The planned release dates for different versions of the product.  Prioritized features: The order in which features will be developed and released.  Market trends: The external factors that may impact the product‘s development and market position.",
+      "description": ""
+    },
+    {
+      "question": "What is sensitivity analysis?",
+      "answer": "a technique used to assess how changes in input variables can affect the output of a model or system. In project management, it helps to understand the impact of uncertainties on project outcomes, such as: Cost estimates: How changes in cost estimates can affect the overall project budget.  Schedule estimates: How changes in activity durations can impact the project timeline.  Risk factors: How changes in the probability or impact of risks can affect the project‘s success.  By conducting sensitivity analysis, project managers can identify critical factors that may significantly impact the project and take steps to mitigate risks or capitalize on opportunities.",
+      "description": ""
+    },
+    {
+      "question": "What type of project team structure allows for shared leadership and decision-making responsibilities?",
+      "answer": "Distributed Management is a project team structure where leadership and decision-making responsibilities are shared among multiple team members. This approach empowers team members to take ownership of their work and make decisions independently, leading to increased autonomy and engagement.",
+      "description": ""
+    },
+    {
+      "question": "What is the 'definition of ready'?",
+      "answer": "a set of criteria that must be met before a work item (e.g., user story) is ready to be pulled into a sprint and worked on. It ensures that the work item is well-understood, estimated, and prepared for development.",
+      "description": ""
+    },
+    {
+      "question": "Which change management element involves checking if new capabilities are having the intended impact?",
+      "answer": "The Implement Change element of change management focuses on executing the change and monitoring its impact. This includes: Deploying the change: Rolling out the new process, system, or technology.  Training and education: Providing necessary training and support to users.  Monitoring adoption: Tracking the usage and effectiveness of the change.  Evaluating impact: Assessing whether the change is delivering the expected benefits.  By checking if new capabilities are having the intended impact, organizations can ensure that the change is successful and delivers the desired outcomes.",
+      "description": ""
+    },
+    {
+      "question": "",
+      "answer": "",
+      "description": ""
+    },
+    {
+      "question": "",
+      "answer": "",
+      "description": ""
+    },
+    {
+      "question": "",
+      "answer": "",
+      "description": ""
+    },
+    {
+      "question": "",
+      "answer": "",
+      "description": ""
+    },
+    {
+      "question": "",
+      "answer": "",
+      "description": ""
+    },
+    {
+      "question": "",
+      "answer": "",
+      "description": ""
+    },
+    {
+      "question": "",
+      "answer": "",
+      "description": ""
+    },
+    {
+      "question": "",
+      "answer": "",
+      "description": ""
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  ]
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+</head>
+<body>
+  <script type="text/javascript">
+    questions = []; // intentional global scope
+    currentQuestion = undefined;
+
+    fetch("pm_flash_cards.json")
+      .then(response => response.json())
+      .then(arr => {
+        console.log(arr.data)
+        questions = arr.data;
+      }).catch(error => console.log(error));
+
+    const handleQuestion = async () => {
+      setRandomQuestion();
+      clearAnswer();
+
+      const startButton = document.querySelector("#startButton");
+      // get dom element and append
+      const answerEl = document.querySelector("#answer");
+      const questionEl = document.querySelector("#question");
+      
+      if (startButton) {
+        startButton.style.display = "none";
+      }
+
+      questionEl.innerHTML = currentQuestion.question;
+    }
+
+    const getRandomQuestion = () => {
+      const numberOfQuestions = questions.length;
+      const randomIndex = Math.floor(Math.random() * numberOfQuestions);
+      const randomQuestion = questions[randomIndex];
+
+      if (randomQuestion.question !== "") {
+        return randomQuestion;
+      }
+      
+      return getRandomQuestion();
+    }
+
+    const setRandomQuestion = () => currentQuestion = getRandomQuestion();
+
+    const clearAnswer = () => document.querySelector("#answer").innerHTML = "";
+
+    const showAnswer = () => {
+      // if already has answer do not append again
+      document.querySelector("#answer").innerHTML = currentQuestion.answer;
+    };
+  </script>
+
+  <h1>PM flash card</h1>
+
+  <button onclick="handleQuestion()" id="startButton">Start</button>
+  <h2 id="question"></h2>
+  <h2 id="answer"></h2>
+
+  <button onclick="handleQuestion()">Next Question</button>
+  <button onclick="showAnswer()">Show Answer</button>
+  <!-- Question   -->
+  <!-- Button: show answer   -->
+  <!-- Previous Question   -->
+  <!-- Next Question   -->
+</body>
+</html>
