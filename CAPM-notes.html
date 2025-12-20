@@ -6,65 +6,45 @@
 </head>
 <body>
   <script type="text/javascript">
-    questions = []; // intentional global scope
-    currentQuestion = undefined;
+    notes = []; // intentional global scope
+    currentNote = undefined;
 
     fetch("CAMP_exam_prep_udemy.txt")
-      .then(response => response.json())
-      .then(arr => {
-        console.log(arr.data)
-        questions = arr.data;
+      .then(response => response.text())
+      .then(txt => {
+        notes = txt.split('\n\n'); // get array of individual note strings
       }).catch(error => console.log(error));
 
-    const handleQuestion = async () => {
-      setRandomQuestion();
-      clearAnswer();
+    const handleNote = async () => {
+      setRandomNote();
 
-      const startButton = document.querySelector("#startButton");
       // get dom element and append
-      const answerEl = document.querySelector("#answer");
-      const questionEl = document.querySelector("#question");
+      const noteEl = document.querySelector("#note");
       
-      if (startButton) {
-        startButton.style.display = "none";
-      }
-
-      questionEl.innerHTML = currentQuestion.question;
+      noteEl.innerHTML = currentNote;
     }
 
-    const getRandomQuestion = () => {
-      const numberOfQuestions = questions.length;
-      const randomIndex = Math.floor(Math.random() * numberOfQuestions);
-      const randomQuestion = questions[randomIndex];
+    const getRandomNote = () => {
+      const numberOfNotes = notes.length;
+      const randomIndex = Math.floor(Math.random() * numberOfNotes);
+      const randomNote = notes[randomIndex];
 
-      if (randomQuestion.question !== "") {
-        return randomQuestion;
+      console.log('random note is: ', randomNote);
+      if (randomNote !== "") {
+        return randomNote;
       }
       
-      return getRandomQuestion();
+      // try again
+      return getRandomNote();
     }
 
-    const setRandomQuestion = () => currentQuestion = getRandomQuestion();
-
-    const clearAnswer = () => document.querySelector("#answer").innerHTML = "";
-
-    const showAnswer = () => {
-      // if already has answer do not append again
-      document.querySelector("#answer").innerHTML = currentQuestion.answer;
-    };
+    const setRandomNote = () => currentNote = getRandomNote();
   </script>
 
-  <h1>PM flash card</h1>
+  <h1>PM Note list</h1>
 
-  <button onclick="handleQuestion()" id="startButton">Start</button>
-  <h2 id="question"></h2>
-  <h2 id="answer"></h2>
+  <h2 id="note"></h2>
 
-  <button onclick="handleQuestion()">Next Question</button>
-  <button onclick="showAnswer()">Show Answer</button>
-  <!-- Question   -->
-  <!-- Button: show answer   -->
-  <!-- Previous Question   -->
-  <!-- Next Question   -->
+  <button onclick="handleNote()">Next Note</button>
 </body>
 </html>
