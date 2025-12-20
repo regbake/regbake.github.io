@@ -1,0 +1,128 @@
+assumption an unverified fact
+
+SWOT and Risk Register diagram/table
+
+Make or buy analysis
+
+Critical chain method vs. critical path
+
+Go over again the WBS - 
+
+Product requirement is a requirement the project must adhere to. this seems to be more of a technical requirement or possibly something like ISO certification?
+
+Project risk assessment and evaluations come after the WBS has been created.
+
+WBS dictionary?
+
+Unlike predictive approaches, projects that follow adaptive approaches have fixed resources and schedules and flexible scope. While the scope might change in agile projects, teams commit to fixed work iterations known as sprints, when implementing a scrum framework.
+
+Items of high priority and high risk should be on top as completing them sooner generates more new knowledge, which eliminates uncertainty and reduces risk. Items of high value and low risk should be tackled next. These items are great for achieving quick wins. The project team can then consider working on low-value and low-risk items. Finally, items of low value and high risk should be put off and placed at the bottom of the product backlog since they are not worth the effort.
+
+Product requirements are documented under the backlog as user stories. The backlog user stories are then continuously prioritized and refined. The WBS is only used in the predictive approach.
+
+Delivering value should always be the agile team’s top priority as it represents one of the agile manifesto principles: “working software over comprehensive documentation”. From the client’s perspective, value represents the benefit derived from using a product or a service.
+
+Net Present Value (NPV) = Future payment (F) / [ (1 + Discount rate (i) ) ^ number of periods in the future the cash flow is (n) ]. 
+
+The product owner represents the business unit, customer, or end-user as they’re regarded as the voice of the customer. The Product Owner is responsible for maximizing the value produced by the team and ensuring that the stories meet the user’s needs and comply with the Definition of Done (DoD) (PMBOK 7th edition, page 245). Apart from the project team, the product owner has significant relationships and obligations, including working with upper management, end-users, and other stakeholders.
+
+The PMI Talent Triangle is made up of three types of skill sets: Ways of Working, Power Skills, and Business Acumen
+
+A risk register contains a list of all identified risks, their description, planned responses, probability, impact, risk owner
+
+ Theoretically, there is no limit on how many critical paths a network diagram could have. If a project has more than one critical path, then all critical paths must have exactly the same length.
+
+Activities that are not on the critical path have some float (also called slack) that allows some margin for delay without causing the delay or change of the project end date. Free float is the amount of time an activity can be delayed without delaying the early start of the immediate subsequent activity. The critical chain is also the longest path in the network diagram, but unlike the critical path, it takes into consideration resource availability in addition to technical dependencies.
+
+In Agile methodologies like Scrum, the entire team is responsible for understanding and refining requirements. The business analyst plays a crucial role in facilitating this process by:
+Collaborating with the product owner: Working closely with the product owner to understand the product vision and prioritize the backlog.
+Facilitating requirements gathering: Organizing workshops, interviews, and other techniques to elicit requirements from stakeholders.
+Writing user stories: Creating clear and concise user stories that describe the desired functionality.
+Refining the product backlog: Continuously refining the product backlog to ensure that it‘s prioritized and well-understood.
+Collaborating with the development team: Working with developers to ensure that requirements are implemented correctly.
+
+An Activity List is a detailed, chronological list of all tasks required to complete the project, while a WBS is a hierarchical decomposition of the total scope of work to accomplish the project objectives. 
+Poor resource planning, limited documentation, and fragmented output are three key downsides of the agile approach. Since Agile is built on the fact that teams don‘t know what their final result will look like earlier in the project, it‘s difficult to anticipate project costs, time, and resources at the start, and this difficulty becomes more pronounced as projects become larger and more complex. Moreover, in Agile, documentation occurs during the project, and it is often done “just in time”, rather than at the beginning of the project. As a consequence, documentation becomes less informative. Additionally, while incremental delivery can help launch goods faster, it‘s often regarded as one of the Agile approach’s major disadvantages: when teams work on each component at different time periods, the end result often becomes fragmented instead of being one coherent deliverable. On the other hand, Agile teams are self-organizing which is proven to contribute to a higher velocity, increased quality, and less need for team management.
+
+Working Methods (also known as Ways of Working) are the skills that the project manager is developing through the training. The other two aspects of the PMI talent triangle are Power Skills and Business Acumen.
+
+Project constraints are restrictions that limit the project in a certain way. A cost restriction, for instance, means that the project is limited by its allocated budget or resources. Other constraints include policies, standards, guidelines, etc.
+
+In Agile, there are three common roles: cross-functional team members, product owner, and team facilitator. The team facilitator can also be called project manager, scrum master, project team lead, or team coach. A team facilitator’s role is to remove impediments, facilitate, and coach the team. In other terms, the team facilitator should have strong servant leadership skills
+
+Variance analysis is a technique used at the end of a project or phase in order to identify any deviation in deliverables or difference between actual and planned behaviors. This method is used to determine the cause and magnitude of the difference between baseline and actual performance, as well as retain control over the project 
+
+Cost of Non-Conformance can be divided into two categories:
+1. Internal Failure Costs are incurred when defects are detected internally (i.e. not yet presented to the customers) which include defect repair and rework.
+2. External Failure Costs are incurred when defects are discovered after the deliverables have been shipped to customers (this is the worst type of quality cost) These include warranty work, liabilities, and loss of business goodwill.
+
+Check sheets, aka tally sheets, are used to gather facts in order to facilitate the collection of more data concerning a potential quality issue (PMBOK 7th edition, page 175). A checklist, on the other hand, is used to verify whether a set of required steps has been performed or not.
+
+In the Scrum framework, the sprint planning meeting should include the scrum master, product owner, and the whole scrum team. When needed, other stakeholders can be invited by the team to attend this meeting. During the sprint planning meeting, the product owner identifies the features with the highest priority. The team asks questions to get the necessary understanding to be able to turn high-level user stories into more detailed tasks.
+
+Adaptive life cycles are also referred to as agile or change-driven life cycles
+
+Apart from the development team, nobody should decide the stories’ order in the sprint backlog. Instead, team members should define their own task-level work and then self-organize in any manner they feel best to achieve the sprint goal (Essential Scrum by Rubin, Kenneth S, page 23). The agile coach should keep in mind that the “sprint backlog” is different from the “product backlog”. A sprint backlog is the set of items that the cross-functional team selects from the product backlog to work on during the upcoming sprint. The sprint backlog represents the primary output of sprint planning.
+
+In Agile, a project manager (also known as scrum master, project team lead, or team coach) is responsible for removing impediments and ensuring that the cross-functional team performs and delivers the product as initially defined by the product owner
+
+The product backlog should be prioritized and organized based on the value that each item brings to the product and project. This value depends on several factors such as the item’s complexity, criticality, and the risk associated with it. However, these factors are not the basis to determine the items’ value.
+
+The burnup and burndown charts are tools used by Scrum teams to get an overview of a sprint’s work development.
+
+Integrated change control should be performed throughout the whole project, from start to finish. Integrated change control is the process of reviewing all change requests, approving or rejecting changes, and managing implemented changes. Therefore, it should not be limited to a specific process group or project phase.
+
+Velocity is a measure of the amount of fully completed work in a sprint. Partially done tasks should not be counted. 
+
+Knowledge Areas are fields or areas of specialization that are commonly employed when performing business analysis. A Knowledge Area is a set of processes associated with a particular function
+
+Why why diagram aka fishbone aka ishikawa diagram
+
+Adaptive vs incremental?
+
+Traceability Matrix:
+  Tracks the relationships between requirements, design, test cases, and other project artifacts.
+  Used to ensure that all requirements are implemented and tested.
+  A long-term artifact used throughout the project lifecycle.
+Interaction Matrix:
+  Used to identify potential communication channels and dependencies between team members.
+  Helps in visualizing the communication flow within the team.
+  A temporary artifact, often used during the project planning phase.
+
+The project charter typically includes high-level information such as management provisions, which outline project governance, roles, and responsibilities, and provide authorization for the project to begin.
+
+Facilitated workshops are a highly effective technique for engaging cross-functional stakeholders in a structured setting. They provide a platform for:
+
+Collaborative discussions: Participants can share ideas, insights, and concerns.
+Consensus building: The facilitator can guide the group to reach agreement on key decisions.
+Problem-solving: The group can work together to identify and solve problems.
+Knowledge sharing: Participants can learn from each other and build relationships.
+
+The business analyst is responsible for understanding the business needs, translating them into functional requirements, and ensuring that the delivered product meets those requirements. They play a crucial role in:
+
+Requirements gathering and analysis: Identifying, documenting, and prioritizing the project requirements.
+Solution design: Collaborating with the technical team to design a solution that meets the business needs.
+Testing and validation: Ensuring that the product meets the defined acceptance criteria.
+Stakeholder management: Communicating with stakeholders to gather feedback and manage expectations.
+By focusing on the delivery of a high-quality product that meets business objectives, the business analyst contributes to the overall success of the project.
+
+The guiding principles in Scaled Agile Framework (SAFe) include (Agile practice guide, page 112):
+Take an economic view: Ensure that decisions are made with an understanding of the broader economic impact.
+Apply systems thinking: Focus on optimizing the entire system, not just individual components.
+Assume variability, preserve options: Embrace variability in development and keep options open until the last responsible moment to make de
+
+The project sponsor is a key stakeholder who champions the project and ensures its alignment with the organization‘s strategic goals. They are responsible for:
+Providing strategic direction: Ensuring that the project delivers value to the organization.
+Allocating resources: Providing the necessary budget and resources for the project.
+Making key decisions: Approving major decisions and resolving conflicts.
+Removing obstacles: Helping to remove any barriers or impediments that may hinder the project‘s progress.
+While the project manager is responsible for executing the project, the project sponsor‘s role is to ensure that the project remains aligned with the organization‘s overall goals and objectives.
+
+Situational Leadership is a leadership style that adapts to the specific needs of the situation and the maturity level of the team members. It involves adjusting leadership behavior based on the team‘s competence and commitment. The four leadership styles within situational leadership are:
+Directing: Used when team members are low in competence and commitment.
+Coaching: Used when team members are low in competence but high in commitment.
+Supporting: Used when team members are high in competence but low in commitment.
+Delegating: Used when team members are high in both competence and commitment.
+By adapting the leadership style to the specific needs of the team, situational leadership helps to maximize performance and motivation.
+
+Management vs. contigency reserve

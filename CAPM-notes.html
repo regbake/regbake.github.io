@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+</head>
+<body>
+  <script type="text/javascript">
+    notes = []; // intentional global scope
+    currentNote = undefined;
+
+    fetch("CAMP_exam_prep_udemy.txt")
+      .then(response => response.text())
+      .then(txt => {
+        notes = txt.split('\n\n'); // get array of individual note strings
+      }).catch(error => console.log(error));
+
+    const handleNote = async () => {
+      setRandomNote();
+
+      // get dom element and append
+      const noteEl = document.querySelector("#note");
+      
+      noteEl.innerHTML = currentNote;
+    }
+
+    const getRandomNote = () => {
+      const numberOfNotes = notes.length;
+      const randomIndex = Math.floor(Math.random() * numberOfNotes);
+      const randomNote = notes[randomIndex];
+
+      console.log('random note is: ', randomNote);
+      if (randomNote !== "") {
+        return randomNote;
+      }
+      
+      // try again
+      return getRandomNote();
+    }
+
+    const setRandomNote = () => currentNote = getRandomNote();
+  </script>
+
+  <h1>PM Note list</h1>
+
+  <h2 id="note"></h2>
+
+  <button onclick="handleNote()">Next Note</button>
+</body>
+</html>
