@@ -92,14 +92,12 @@ Interaction Matrix:
 The project charter typically includes high-level information such as management provisions, which outline project governance, roles, and responsibilities, and provide authorization for the project to begin.
 
 Facilitated workshops are a highly effective technique for engaging cross-functional stakeholders in a structured setting. They provide a platform for:
-
 Collaborative discussions: Participants can share ideas, insights, and concerns.
 Consensus building: The facilitator can guide the group to reach agreement on key decisions.
 Problem-solving: The group can work together to identify and solve problems.
 Knowledge sharing: Participants can learn from each other and build relationships.
 
 The business analyst is responsible for understanding the business needs, translating them into functional requirements, and ensuring that the delivered product meets those requirements. They play a crucial role in:
-
 Requirements gathering and analysis: Identifying, documenting, and prioritizing the project requirements.
 Solution design: Collaborating with the technical team to design a solution that meets the business needs.
 Testing and validation: Ensuring that the product meets the defined acceptance criteria.

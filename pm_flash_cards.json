@@ -279,7 +279,7 @@
     },
     {
       "question": "What is a Gantt chart?",
-      "answer": "A project management tool used to track how a project is progressing. Can show dependencies of tasks.",
+      "answer": "A project management tool used to track how a project is progressing. Can show dependencies of tasks. A bar chart of schedule information where activities are listed on the vertical axis, dates are shown on the horizontal axis, and activity durations are shown as horizontal bars placed according to start and finish dates.",
       "description": ""
     },
     {
@@ -399,7 +399,7 @@
     },
     {
       "question": "What are the five inputs to consider for a project charter?",
-      "answer": "Project statement of work, business case, agreements, enterprise environmental factors , and organizational process assets.",
+      "answer": "Project statement of work, business case, agreements, enterprise environmental factors, and organizational process assets.",
       "description": ""
     },
     {
@@ -723,6 +723,126 @@
       "description": ""
     },
     {
+      "question": "What is the difference between float, total float, and slack?",
+      "answer": "They're all the same. The duration of delay that can be made without delaying the project.",
+      "description": ""
+    },
+    {
+      "question": "What is free float?",
+      "answer": "The amount of time you can delay one activity without delaying the next activity.",
+      "description": ""
+    },
+    {
+      "question": "What is adaptive life cycle?",
+      "answer": "A project lifecycle that is either iterative or incremental.",
+      "description": ""
+    },
+    {
+      "question": "What is affinity diagram?",
+      "answer": "A technique that allows large numbers of ideas to be classified into groups for review and analysis.",
+      "description": ""
+    },
+    {
+      "question": "What are Agreements?",
+      "answer": "Any document or communication that defines the initial intentions of a project. This can take the form of a contract, memorandum of understanding (MOU), letters of agreement, verbal agreements, email, etc.",
+      "description": ""
+    },
+    {
+      "question": "",
+      "answer": "",
+      "description": ""
+    },
+    {
+      "question": "",
+      "answer": "",
+      "description": ""
+    },
+    {
+      "question": "",
+      "answer": "",
+      "description": ""
+    },
+    {
+      "question": "",
+      "answer": "",
+      "description": ""
+    },
+    {
+      "question": "",
+      "answer": "",
+      "description": ""
+    },
+    {
+      "question": "",
+      "answer": "",
+      "description": ""
+    },
+    {
+      "question": "",
+      "answer": "",
+      "description": ""
+    },
+    {
+      "question": "",
+      "answer": "",
+      "description": ""
+    },
+    {
+      "question": "",
+      "answer": "",
+      "description": ""
+    },
+    {
+      "question": "",
+      "answer": "",
+      "description": ""
+    },
+    {
+      "question": "",
+      "answer": "",
+      "description": ""
+    },
+    {
+      "question": "",
+      "answer": "",
+      "description": ""
+    },
+    {
+      "question": "",
+      "answer": "",
+      "description": ""
+    },
+    {
+      "question": "",
+      "answer": "",
+      "description": ""
+    },
+    {
+      "question": "",
+      "answer": "",
+      "description": ""
+    },
+    {
+      "question": "",
+      "answer": "",
+      "description": ""
+    },
+    {
+      "question": "",
+      "answer": "",
+      "description": ""
+    },
+    {
+      "question": "",
+      "answer": "",
+      "description": ""
+    },
+    {
+      "question": "",
+      "answer": "",
+      "description": ""
+    },
+    {
       "question": "",
       "answer": "",
       "description": ""
@@ -762,6 +882,12 @@
       "answer": "",
       "description": ""
     }
+
+
+
+
+
+
 
 
 

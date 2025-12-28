@@ -5,6 +5,20 @@
   <meta name="viewport" content="width=device-width,initial-scale=1" />
 </head>
 <body>
+
+  <h1>PM flash card</h1>
+
+  <button onclick="handleQuestion()" id="startButton">Start</button>
+  <h2 id="question"></h2>
+  <h2 id="answer"></h2>
+
+  <button onclick="handleQuestion()">Next Question</button>
+  <button onclick="showAnswer()">Show Answer</button>
+  <button onclick="toggleQuestionRegister()">Toggle Question Register</button>
+
+  <div>
+    <ul id="question-register" style="list-style-type:none;width:25vw"></ul>
+  </div>
   <script type="text/javascript">
     questions = []; // intentional global scope
     currentQuestion = undefined;
@@ -14,6 +28,13 @@
       .then(arr => {
         console.log(arr.data)
         questions = arr.data;
+
+        const qRegister = document.querySelector("#question-register");
+        let qNums = questions.map((item, index) => `<li id=q-${index}
+        style="padding-right:10px;display:inline-block">${index
+            + 1}</li>`).join('');
+        qRegister.innerHTML = qNums;
+
       }).catch(error => console.log(error));
 
     const handleQuestion = async () => {
@@ -38,6 +59,8 @@
       const randomQuestion = questions[randomIndex];
 
       if (randomQuestion.question !== "") {
+        const el = document.querySelector("#q-" + `${randomIndex}`);
+        el.style.color = "red";
         return randomQuestion;
       }
       
@@ -52,19 +75,18 @@
       // if already has answer do not append again
       document.querySelector("#answer").innerHTML = currentQuestion.answer;
     };
+
+    const toggleQuestionRegister = () =>
+      document.querySelector("#question-register").style.display === ""
+        ? document.querySelector("#question-register").style.display = "none"
+        : document.querySelector("#question-register").style.display = "";
+
+    document.addEventListener("DOMContentLoaded", (event) => {
+      console.log("DOM fully loaded and parsed");
+      console.log('questions is: ', questions);
+      questions.forEach(item => console.log('item is: ', item))
+      
+    });
   </script>
-
-  <h1>PM flash card</h1>
-
-  <button onclick="handleQuestion()" id="startButton">Start</button>
-  <h2 id="question"></h2>
-  <h2 id="answer"></h2>
-
-  <button onclick="handleQuestion()">Next Question</button>
-  <button onclick="showAnswer()">Show Answer</button>
-  <!-- Question   -->
-  <!-- Button: show answer   -->
-  <!-- Previous Question   -->
-  <!-- Next Question   -->
 </body>
 </html>
