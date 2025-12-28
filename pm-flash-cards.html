@@ -14,9 +14,10 @@
 
   <button onclick="handleQuestion()">Next Question</button>
   <button onclick="showAnswer()">Show Answer</button>
+  <button onclick="toggleQuestionRegister()">Toggle Question Register</button>
 
   <div>
-    <ul id="question-register"></ul>
+    <ul id="question-register" style="list-style-type:none;width:25vw"></ul>
   </div>
   <script type="text/javascript">
     questions = []; // intentional global scope
@@ -29,7 +30,8 @@
         questions = arr.data;
 
         const qRegister = document.querySelector("#question-register");
-        let qNums = questions.map((item, index) => `<li>${index
+        let qNums = questions.map((item, index) => `<li id=q-${index}
+        style="padding-right:10px;display:inline-block">${index
             + 1}</li>`).join('');
         qRegister.innerHTML = qNums;
 
@@ -57,6 +59,8 @@
       const randomQuestion = questions[randomIndex];
 
       if (randomQuestion.question !== "") {
+        const el = document.querySelector("#q-" + `${randomIndex}`);
+        el.style.color = "red";
         return randomQuestion;
       }
       
@@ -71,6 +75,11 @@
       // if already has answer do not append again
       document.querySelector("#answer").innerHTML = currentQuestion.answer;
     };
+
+    const toggleQuestionRegister = () =>
+      document.querySelector("#question-register").style.display === ""
+        ? document.querySelector("#question-register").style.display = "none"
+        : document.querySelector("#question-register").style.display = "";
 
     document.addEventListener("DOMContentLoaded", (event) => {
       console.log("DOM fully loaded and parsed");
