@@ -13,6 +13,7 @@
   <h2 id="answer"></h2>
 
   <button onclick="handleQuestion()">Next Question</button>
+  <button onclick="handlePreviousQuestion()">Previous Question</button>
   <button onclick="showAnswer()">Show Answer</button>
   <button onclick="toggleQuestionRegister()">Toggle Question Register</button>
 
@@ -22,6 +23,7 @@
   <script type="text/javascript">
     questions = []; // intentional global scope
     currentQuestion = undefined;
+    questionHistory = [];
 
     fetch("pm_flash_cards.json")
       .then(response => response.json())
@@ -37,8 +39,14 @@
 
       }).catch(error => console.log(error));
 
+    const handlePreviousQuestion = () => {
+      const questionEl = document.querySelector("#question");
+      currentQuestion = questionHistory[questionHistory.length - 2]; 
+      questionEl.innerHTML = currentQuestion.question;
+    }
+
     const handleQuestion = async () => {
-      setRandomQuestion();
+      setCurrentQuestion();
       clearAnswer();
 
       const startButton = document.querySelector("#startButton");
@@ -67,7 +75,10 @@
       return getRandomQuestion();
     }
 
-    const setRandomQuestion = () => currentQuestion = getRandomQuestion();
+    const setCurrentQuestion = () => {
+      currentQuestion = getRandomQuestion();
+      questionHistory.push(currentQuestion);
+    }
 
     const clearAnswer = () => document.querySelector("#answer").innerHTML = "";
 
