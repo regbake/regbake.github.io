@@ -124,3 +124,69 @@ Delegating: Used when team members are high in both competence and commitment.
 By adapting the leadership style to the specific needs of the team, situational leadership helps to maximize performance and motivation.
 
 Management vs. contigency reserve
+
+Exploit is a strategy used for opportunities where the organization wants to ensure that an opportunity is realized, such as completing a project on time. Escalate is used to push an opportunity up to a higher level within the organization. Enhance is used to increase the probability and/or impact of an opportunity. Share is to transfer ownership of an opportunity to a third-party.
+
+The project calendar would identify the working days and shifts the team will be working in order to complete the project. Schedule, schedule baseline and schedule data will not display the working days and shifts on a project.
+
+The business case is a document that shows why a project was chosen to be initiated; in this project, it was a legal requirement. The project management plan, which includes the scope statement, and WBS, will describe the work needed to finish the project
+
+Control resources is a process that ensures physical resources are being utilized correctly. Manage and develop team are used to manage the project team and not the physical resources. Monitor resources is a made-up process.
+
+A rough order of magnitude estimate has a variance of -25% to +75%. It is usually done in the early phases of the project. Definitive estimates vary by between -5% to +10%. Detail and materials are made-up terms.
+
+When a risk is transferred it is usually given away to another company such as purchasing insurance or hiring a consultant. Avoidance is used to eliminate a risk by going down a different path, mitigation is used to reduce the risk probability and/or its impact. Risk acceptance is to do nothing about the risk.
+
+Once the project charter is done, Mark should begin the process of identity stakeholders, which will create the stakeholder register. After that he will start planning to create the project management plan, which includes the communication management plan and scope baseline.
+
+A predictive life cycle is used when the scope, time, and cost are mostly determined in the early phases of the project. In this life cycle, changes to the scope must be managed correctly to avoid scope creep. In an iterative life cycle the scope is generally known in the early parts of the project but the cost is progressively updated as the project progress.
+
+Statistical independent is a term that is used in probability that means one event cannot affect the other event. Mutually exclusive is a term that is used when two events cannot happen at the same time, in this question these two events are happening at the same time.
+
+The project scope statement is the output of the define scope process. The scope baseline, which contains the WBS, is the output of the create WBS process. The collect requirements process outputs the requirements documentation.
+
+A CPI < 1 represents a project that is over budget. A SPI < 1 represents a project that is behind schedule.
+
+The outputs of all the executed processes combined, which is the executing process of direct and manage project work, are the project deliverables. The output for planning would be the project management plan. The output for closing would be the final product service or result transition and the final report. The output for monitoring and controlling would be the accepted deliverables and the work performance reports.
+
+A lead is an overlap between project activities. This will have work start before the predecessor work is done. Lag time will add a delay between activities. Slack is amount of time you can delay an activity without delaying the project. Reserves are additional time added to activities for risk.
+
+The risk register is output of the identify risk process.
+
+A request-for-proposal is used when there’s a problem on the project and the solution is not easy to determine. This is generally a formal request given to vendors to understand how they would rewrite the scope statement. Conducting a bidder conference will not come up with the solutions to the problem on the project. A request for quotation is when project managers solicit bids from vendors or suppliers for goods or services required for a project.
+
+The stakeholder register can be updated at any point during the project. The register will contain a list of all stakeholders and their contact information, communication requirements, and their impact on the project. Once this is done, then the project manager may update the communication management plan to add the new stakeholder. This is a change, not an issue on a project, so there is no need to update the issue log. The risk register keeps track of the risk on the project. Project communications are the actual communications taking place on the project.
+
+When a risk has been added to the risk register, the project manager should conduct both a qualitative and quantitative assessment before coming up with a risk response. If the response requires additional resources, the project manager should initiate a change request for more funds for the project. The project manager should assess the risk before informing the sponsor of the risk.
+
+Lessons learned should be done with the team and not just by the project manager. The steps in closing are usually: conduct lessons learned, release the team, then write the final report.
+
+Predictive (or Waterfall) has distinct, linear phases, providing a clear view of progression.
+
+Regular backlog refinement sessions, which involve stakeholders, can help prioritize items based on value and importance, and make the backlog more manageable.
+
+Agile identifies and addresses risks early through its iterative nature, ensuring that potential issues are caught and rectified quickly.
+
+Those who provided the requirements should be involved in their validation to ensure accuracy and alignment with their needs.
+
+Engaging stakeholders in a collective discussion often helps address conflicting views and promotes consensus-building.
+
+Mind mapping is a way to visually organize data. A matrix diagram is used to show the relationship between two or more groups. A flowchart shows you a graphical representation of a process. A Pareto diagram displays Pareto’s 80/20 rule, usually in a histogram.
+
+The Scrum Master's role includes removing impediments for the team. Ensuring the team has the necessary tools and resources falls under this responsibility.
+
+During the create WBS process the project team will use the decomposition tool to break down the project deliverables into work packages. These work packages will then be used to help estimate the time and cost of the project. Define activities is a process of decomposing the work packages into activities, not the deliverables. Define scope is used to create the scope statement which will have a list of the deliverables. Define WBS is not a process.
+
+There are 6 constraints on a project, scope, cost, time, resources, risk, and quality. 
+
+Once work is done on a project, the team should update the work performance data. This will include the status of the work, such as when it was completed or started. The project manager will take the work performance data and create the work performance information and report which will be then given to all other stakeholders. You should not close the project or phase until all work has been done and accepted.
+
+The basis of estimates document is used to estimate assumptions, constraints, ranges of estimates, and the confidence levels of the estimates. The duration and cost estimates will not have these components. The project schedule will outline how long the project will take, which includes a network diagram, Gantt chart, and the milestone chart.
+
+The risk management plan does not contain a list of risks, that is stored in the risk register. All other choices are documented in the risk management plan.
+
+After the team has created the activity list during the define activity process, they should proceed to the sequence activity process. This should be done before you develop schedule. Create WBS and define scope will come before you define activities.
+
+A project scope statement not only has the deliverables of the project, but it also contains the exclusions, which are features that the project will not accomplish. Mark should not add the feature due the company's inability to have it installed.
+
+Ease of use is to done ensure that the communications are suitable for the stakeholders on the project. Push communication is to send stakeholders the communication. Communication models describes the communication processes between the sender and receiver. Communication methods describes how communication maybe be done such as push, pull, or interactive.
