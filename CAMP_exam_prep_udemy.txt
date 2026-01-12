@@ -190,3 +190,33 @@ After the team has created the activity list during the define activity process,
 A project scope statement not only has the deliverables of the project, but it also contains the exclusions, which are features that the project will not accomplish. Mark should not add the feature due the company's inability to have it installed.
 
 Ease of use is to done ensure that the communications are suitable for the stakeholders on the project. Push communication is to send stakeholders the communication. Communication models describes the communication processes between the sender and receiver. Communication methods describes how communication maybe be done such as push, pull, or interactive.
+
+Financing is used to seek funding for the project during the process of determine budget. Develop project charter is used to get the project authorized. Plan cost management is used to create the cost management plan. Determine project financing is a made-up process.
+
+The resource calendar shows the availability of resources, both physical and team. The lessons learned register is used to keep track of all lessons learned on the project. Project team and availability calendar are made-up terms.
+
+In the monitoring and controlling process, the deliverables are accepted by the stakeholders. 
+
+The risk breakdown structure is used to categorize risk on a project and is generally part of the risk management plan. The risk register is just a list of all the risks that can affect the project and the resource breakdown structure is used to categorize the resources on the project. 
+
+Financing is a tool that is used during the determine budget process where a company looks at external sources to fund the project. Funding limit reconciliation is done when there are limited funds to spend on the project and work may need to be rescheduled. Parametric estimates are a type of mathematical estimate done to estimate the cost of each activity. Analogous estimates are based on historical information, to estimate the cost of each activity.
+
+The purpose of the control quality process is to inspect the deliverables to see if they meet the quality requirements. The output of this process is a verified deliverable. Control quality is generally done before the validate scope process where the deliverables will be inspected by the customers for a formal acceptance.
+
+During a sprint review, the customers review the partially finished product and give the team their feedback.
+
+The Product Owner plays a pivotal role in managing stakeholder expectations. Educating stakeholders about the Agile process and the appropriate channels for introducing changes is essential.
+
+The conflict resolution technique illustrated in this question is withdrawal, that is when they postpone the issue to a later date to be better prepared. Compromise is when the two sides reaches an agreement but both sides have to give up something. Postponing is a made-up term.
+
+Resource leveling is a technique used when resources are limited or over-allocated. Resource leveling will ensure that no resource is assigned to more than one activity at a time, ensuring that no resource is overworked. Resource smoothing may accomplish the same task but it only works if there is slack available on the activities. 
+
+A flow chart is used to visually represent a process and to analyze where improvements can be made.
+
+A histogram is used to show frequencies over time.
+
+On a fixed price contract, the sellers takes on all the risk of cost overruns, as there’s only a lump sum fee that is paid to them to get all the work done. Cost reimbursable is when the project will generally pay for the work expenses and the flat fee for the seller’s profit. Time and materials is when the project will pay for all the materials and generally a cost per hour for the seller’s profit. There's no such contract as no cost overrun.
+
+Work performance data is an output of the integration process of direct and manage project work.
+
+Theory X is a management theory where the manager does not trust their workers and will micro manage them. This theory generally leads to the team being unhappy. Theory Y is when a manager that believes people wants to do the work and has trust in them. Theory Z is the theory of when employees are committed to a business and will generally stay with that business for a long period of time. Maslow's Hierarchy of needs specifies what a company must have in order for employees to stay motivated.
