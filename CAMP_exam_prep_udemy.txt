@@ -220,3 +220,31 @@ On a fixed price contract, the sellers takes on all the risk of cost overruns, a
 Work performance data is an output of the integration process of direct and manage project work.
 
 Theory X is a management theory where the manager does not trust their workers and will micro manage them. This theory generally leads to the team being unhappy. Theory Y is when a manager that believes people wants to do the work and has trust in them. Theory Z is the theory of when employees are committed to a business and will generally stay with that business for a long period of time. Maslow's Hierarchy of needs specifies what a company must have in order for employees to stay motivated.
+
+Upwards influence is for stakeholders above you, such as senior management.
+
+Downward are below you, such as team members.
+
+Sideways are your peers, such as other project managers.
+
+Outwards are external, such as vendors.
+
+Control scope is a process where you compare the work that has gotten done to the project management plan to see if they line up. If there is a variance, the project manager should initiate actions to fix the variance. Validate scope is a process where stakeholders formally accept the project deliverables. Monitor and manage scope are made-up processes.
+
+Resource leveling is done when there are over-allocated resources on a project. This is done by removing resources that are working on two activities at the same time.
+
+Monitor and control project work has an input of work performance information and an output of work performance report.
+
+Monitor Communications is where the project manager will compare the project communications to the project management plan to ensure and that the communications are done according to the plan. Plan communications management is done to create the communication management plan. Manage Communications is where a project manager will actually communicate with the stakeholders according to the plan. Conduct Communications is not an actual process.
+
+The issue log is used to keep a track of all issues on the project. The delay of a server will mean the project might be delayed and should be entered into the issue log immediately. After that, the project manager might Implement a change request in order to extend the schedule baseline and update the project management plan.
+
+The reasons a project should get done will include meeting regulatory, legal or social requirements, satisfying stakeholders needs, and implementing business changes.
+
+Once a deliverable is completed in the process of direct and manage project work, the next process would be to control quality where the deliverable would be checked for quality requirements so it can be accepted by a customer or sponsor. 
+
+Manage communication is an executing process done to follow the communication plan and do project communications. Monitor communication is done to determine if the communication plan is being followed. 
+
+Top-down and analogous are the same and are high-level estimates based on historical data.
+
+Quality metrics are used to measure the project deliverables. The quality checklist will inform the project team what to look for when inspecting the project deliverables. The quality management plan will outline how to conduct the quality processes, such as manage quality and control quality. 
