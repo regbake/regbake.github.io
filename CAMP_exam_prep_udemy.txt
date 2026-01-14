@@ -221,13 +221,9 @@ Work performance data is an output of the integration process of direct and mana
 
 Theory X is a management theory where the manager does not trust their workers and will micro manage them. This theory generally leads to the team being unhappy. Theory Y is when a manager that believes people wants to do the work and has trust in them. Theory Z is the theory of when employees are committed to a business and will generally stay with that business for a long period of time. Maslow's Hierarchy of needs specifies what a company must have in order for employees to stay motivated.
 
-Upwards influence is for stakeholders above you, such as senior management.
-
-Downward are below you, such as team members.
-
-Sideways are your peers, such as other project managers.
-
-Outwards are external, such as vendors.
+Upwards influence is for stakeholders above you, such as senior management.\n
+Downward are below you, such as team members.\n Sideways are your peers, such as
+other project managers.\n Outwards are external, such as vendors.
 
 Control scope is a process where you compare the work that has gotten done to the project management plan to see if they line up. If there is a variance, the project manager should initiate actions to fix the variance. Validate scope is a process where stakeholders formally accept the project deliverables. Monitor and manage scope are made-up processes.
 
