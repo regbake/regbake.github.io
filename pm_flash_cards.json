@@ -26,7 +26,7 @@
     },
     {
       "question": "What is a Mandatory Dependency?",
-      "answer": "Legally or contractually required for the work to take place. Often involve physical limitations i.e. 'cannot walk until can run'"
+      "answer": "Legally or contractually required for the work to take place. Often involve physical limitations i.e. 'cannot run until can walk'"
     },
     {
       "question": "What is a Discretionary Dependency?",
@@ -788,8 +788,8 @@
       "description": ""
     },
     {
-      "question": "",
-      "answer": "",
+      "question": "What is a claim?",
+      "answer": "A request, demand, or assertion of rights by a seller against a buyer, or vice versa, for consideration, compensation, or payment under the terms of a legally binding contract, such as for a disputed change.",
       "description": ""
     },
     {
