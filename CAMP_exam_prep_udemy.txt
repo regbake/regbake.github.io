@@ -244,3 +244,53 @@ Manage communication is an executing process done to follow the communication pl
 Top-down and analogous are the same and are high-level estimates based on historical data.
 
 Quality metrics are used to measure the project deliverables. The quality checklist will inform the project team what to look for when inspecting the project deliverables. The quality management plan will outline how to conduct the quality processes, such as manage quality and control quality. 
+
+Configuration Management System
+
+the processes for change are documented in the scope change control system
+
+A T&M contract must have a not-to-exceed (NTE) clause or the cost can spin out of control. 
+
+The Sapir-Whorf Hypotheses believes that an understanding of the culture, local
+language, and colloquialisms allows people to have a better understanding of
+the country they're working in
+
+Run charts show the history and pattern of variation.
+
+Interviewing the project stakeholders is a common stakeholder analysis activity to promote stakeholder engagement.
+
+A RACI chart depicts the roles of each team member as Responsible, Accountable, Consult, and Inform.
+
+The kick-off meeting is not the place for the discussion of the project team to voice concerns and objections about the project scope 
+
+The Statement of Work  would include information about performance reporting requirements, operation transfer issues, and post-project support of the deliverable
+
+Commercial databases are not part of the archive records. If the project manager did, however, use commercial databases to reference time and cost estimating, this information should be referenced in the estimating documentation.
+
+Product analysis is not a tool or technique for the project charter development.
+
+Project human resource management is the process of successfully applying the right resource to the project work in the most effective way in order to accomplish the project goals while maintaining cost and schedule.
+
+the
+Knowledge Area Project Human Resource Management was changed to Project Resource
+Management.
+
+Perform Quality Assurance (Section 8.2)—Changed to Manage Quality .
+
+Plan Human Resource Management (Section 9.1)—Changed to Plan Resource Management.
+
+Acquire Project Team (Section 9.2)—Changed to Acquire Resources.
+
+Develop Project Team (Section 9.3)—Changed to Develop Team.
+
+Manage Project Team (Section 9.4)—Changed to Manage Team.
+
+Control Communications (Section 10.3)—Changed to Monitor Communications
+
+Control Risks (Section 11.6)—Changed to Monitor Risks.
+
+Plan Stakeholder Management (Section 13.2)—Changed to Plan Stakeholder Engagement.
+
+Control Stakeholder Engagement (Section 13.4)—Changed to Monitor Stakeholder Engagement.
+
+
