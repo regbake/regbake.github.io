@@ -150,7 +150,7 @@
     },
     {
       "question": "Risk breakdown structure?",
-      "answer": "Part of the risk management plan, it shows the different categories of risk on the project."
+      "answer": "Part of the risk management plan, it shows the different categories of risk on the project. A common way to structure risk categories is with a risk breakdown structure (RBS), which is a hierarchical representation of potential sources of risk "
     },
     {
       "question": "SWOT analysis",
@@ -624,7 +624,7 @@
     },
     {
       "question": "What is Resource Breakdown Structure (RBS)?",
-      "answer": "a hierarchical list of resources by category and type. It helps in identifying and organizing resources needed for the project but does not show the reporting relationships among project team members.",
+      "answer": "a hierarchical list of resources by category and type. It helps in identifying and organizing resources needed for the project but does not show the reporting relationships among project team members. hierarchical list of team and physical resources related by category and resource type that is used for planning, managing and controlling project work. Each descending (lower) level represents an increasingly detailed description of the resource until the information is small enough to be used in conjunction with the work breakdown structure (WBS) to allow the work to be planned, monitored, and controlled.",
       "description": ""
     },
     {
@@ -793,13 +793,13 @@
       "description": ""
     },
     {
-      "question": "",
-      "answer": "",
+      "question": "What is Organizational Breakdown Structure (OBS)?",
+      "answer": "While the WBS shows a breakdown of project deliverables, an OBS is arranged according to an organization's existing departments, units, or teams, with the project activities or work packages listed under each department. An operational department, such as information technology or purchasing, can see all of its project responsibilities by looking at its portion of the OBS.",
       "description": ""
     },
     {
-      "question": "",
-      "answer": "",
+      "question": "What is the Problem Solving process?",
+      "answer": "Identify the problem. Specify the problem.  Define the problem. Break it into smaller, manageable problems.  Investigate. Collect data.  Analyze. Find the root cause of the problem.  Solve. Choose the suitable solution from a variety of available ones.  Check the solution. Determine if the problem has been fixed.",
       "description": ""
     },
     {
