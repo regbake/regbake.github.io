@@ -72,6 +72,10 @@
         return randomQuestion;
       }
       
+      if (randomQuestion.blacklist && randomQuestion.blacklist === true) {
+        return randomQuestion;
+      }
+
       return getRandomQuestion();
     }
 
