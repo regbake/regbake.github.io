@@ -13,6 +13,7 @@
       "answer": "Approved version of a scope statement, WBS, and the WBS dictionary. Often synonymous with just WBS, though."
     },
     {
+      "blacklist": true,
       "question": "What is the WBS dictionary?",
       "answer": "A document that provides detailed deliverable, activity, and scheduling information about WBS components. Supporting document for WBS. May include: code of account identifier, description of work, assumptions/constraints, milestones, estimates, requirements, technical references, and agreement information."
     },
@@ -50,7 +51,7 @@
     },
     {
       "question": "What are Project Calendars?",
-      "answer": "Identifies the working days and shifts the project will follow."
+      "answer": "Identifies the working days and shifts the project will follow. A project calendar identifies working days and shifts that are available for scheduled activities. It distinguishes time periods in days or parts of days that are available to complete scheduled activities"
     },
     {
       "question": "What is Critical Path Method?",
@@ -82,9 +83,10 @@
     },
     {
       "question": "What is the Resource Calendar?",
-      "answer": "Resource calendars influence the duration of schedule activities due to the availability of specific resources, type of resources, and resources with specific attributes. Resource calendars specify when and how long identified project resources will be available during the project."
+      "answer": "A resource calendar identifies the working days, shifts, start and end of normal business hours, weekends, and public holidays when each specific resource is available. Information on which resources (such as team resource, equipment, and material) are potentially available during a planned activity period is used for estimating resource utilization. Resource calendars influence the duration of schedule activities due to the availability of specific resources, type of resources, and resources with specific attributes. Resource calendars specify when and how long identified project resources will be available during the project."
     },
     {
+      "blacklist": true,
       "question": "What is the Tuckman ladder?",
       "answer": "Describes five stages of development a team may go through: Forming, Storming, Norming, Performing, and Adjourning."
     },
@@ -803,18 +805,18 @@
       "description": ""
     },
     {
-      "question": "",
-      "answer": "",
+      "question": "What is source selection?",
+      "answer": "Choosing the best vendor",
       "description": ""
     },
     {
-      "question": "",
-      "answer": "",
+      "question": "What is a baseline?",
+      "answer": "The approved version of a work product used as a basis for comparison to actual results.",
       "description": ""
     },
     {
-      "question": "",
-      "answer": "",
+      "question": "What is PERT?",
+      "answer": "Project Evaluation and Review Technique.",
       "description": ""
     },
     {
